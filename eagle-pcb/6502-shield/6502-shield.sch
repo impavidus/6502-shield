@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -408,7 +408,7 @@
 <text x="0" y="7.0927" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.0927" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:footprint:18698688/1" library_version="33">
+<package name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:footprint:18698688/1" library_version="35" library_locally_modified="yes">
 <description>Single-row, 16-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.65 mm insulator length, 41.04 X 2.50 X 8.65 mm body
 &lt;p&gt;Single-row (1X16), 16-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.25 mm tail length and 8.65 mm insulator length with overall size 41.04 X 2.50 X 8.65 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <circle x="0" y="1.764" radius="0.25" width="0" layer="21"/>
@@ -438,6 +438,125 @@
 <pad name="16" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.649" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.895" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="QFP50P1600X1600X160-100N" urn="urn:adsk.eagle:footprint:18830197/1" library_version="35" library_locally_modified="yes">
+<description>100-QFP, 0.50 mm pitch, 16.00 mm span, 14.00 X 14.00 X 1.60 mm body
+&lt;p&gt;100-pin QFP package with 0.50 mm pitch, 16.00 mm lead span1 X 16.00 mm lead span2 with body size 14.00 X 14.00 X 1.60 mm&lt;/p&gt;</description>
+<circle x="-7.7656" y="6.644" radius="0.25" width="0" layer="21"/>
+<wire x1="-7.05" y1="6.394" x2="-7.05" y2="7.05" width="0.12" layer="21"/>
+<wire x1="-7.05" y1="7.05" x2="-6.394" y2="7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="6.394" x2="7.05" y2="7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="7.05" x2="6.394" y2="7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="-6.394" x2="7.05" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="-7.05" x2="6.394" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="-7.05" y1="-6.394" x2="-7.05" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="-7.05" y1="-7.05" x2="-6.394" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="-7.05" x2="-7.05" y2="-7.05" width="0.12" layer="51"/>
+<wire x1="-7.05" y1="-7.05" x2="-7.05" y2="7.05" width="0.12" layer="51"/>
+<wire x1="-7.05" y1="7.05" x2="7.05" y2="7.05" width="0.12" layer="51"/>
+<wire x1="7.05" y1="7.05" x2="7.05" y2="-7.05" width="0.12" layer="51"/>
+<smd name="1" x="-7.6813" y="6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="2" x="-7.6813" y="5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="3" x="-7.6813" y="5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="4" x="-7.6813" y="4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="5" x="-7.6813" y="4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="6" x="-7.6813" y="3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="7" x="-7.6813" y="3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="8" x="-7.6813" y="2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="9" x="-7.6813" y="2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="10" x="-7.6813" y="1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="11" x="-7.6813" y="1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="12" x="-7.6813" y="0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="13" x="-7.6813" y="0" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="14" x="-7.6813" y="-0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="15" x="-7.6813" y="-1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="16" x="-7.6813" y="-1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="17" x="-7.6813" y="-2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="18" x="-7.6813" y="-2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="19" x="-7.6813" y="-3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="20" x="-7.6813" y="-3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="21" x="-7.6813" y="-4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="22" x="-7.6813" y="-4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="23" x="-7.6813" y="-5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="24" x="-7.6813" y="-5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="25" x="-7.6813" y="-6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="26" x="-6" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="27" x="-5.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="28" x="-5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="29" x="-4.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="30" x="-4" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="31" x="-3.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="32" x="-3" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="33" x="-2.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="34" x="-2" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="35" x="-1.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="36" x="-1" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="37" x="-0.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="38" x="0" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="39" x="0.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="40" x="1" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="41" x="1.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="42" x="2" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="43" x="2.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="44" x="3" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="45" x="3.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="46" x="4" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="47" x="4.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="48" x="5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="49" x="5.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="50" x="6" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="51" x="7.6813" y="-6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="52" x="7.6813" y="-5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="53" x="7.6813" y="-5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="54" x="7.6813" y="-4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="55" x="7.6813" y="-4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="56" x="7.6813" y="-3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="57" x="7.6813" y="-3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="58" x="7.6813" y="-2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="59" x="7.6813" y="-2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="60" x="7.6813" y="-1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="61" x="7.6813" y="-1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="62" x="7.6813" y="-0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="63" x="7.6813" y="0" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="64" x="7.6813" y="0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="65" x="7.6813" y="1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="66" x="7.6813" y="1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="67" x="7.6813" y="2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="68" x="7.6813" y="2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="69" x="7.6813" y="3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="70" x="7.6813" y="3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="71" x="7.6813" y="4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="72" x="7.6813" y="4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="73" x="7.6813" y="5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="74" x="7.6813" y="5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="75" x="7.6813" y="6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="76" x="6" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="77" x="5.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="78" x="5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="79" x="4.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="80" x="4" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="81" x="3.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="82" x="3" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="83" x="2.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="84" x="2" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="85" x="1.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="86" x="1" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="87" x="0.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="88" x="0" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="89" x="-0.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="90" x="-1" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="91" x="-1.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="92" x="-2" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="93" x="-2.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="94" x="-3" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="95" x="-3.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="96" x="-4" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="97" x="-4.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="98" x="-5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="99" x="-5.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="100" x="-6" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<text x="0" y="9.1162" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.1162" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -496,11 +615,18 @@
 <packageinstance name="QFP80P1200X1200X160-44N"/>
 </packageinstances>
 </package3d>
-<package3d name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:package:18698632/1" type="model" library_version="33">
+<package3d name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:package:18698632/1" type="model" library_version="35" library_locally_modified="yes">
 <description>Single-row, 16-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.65 mm insulator length, 41.04 X 2.50 X 8.65 mm body
 &lt;p&gt;Single-row (1X16), 16-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.25 mm tail length and 8.65 mm insulator length with overall size 41.04 X 2.50 X 8.65 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRVR16W64P254_1X16_4104X250X865B"/>
+</packageinstances>
+</package3d>
+<package3d name="QFP50P1600X1600X160-100N" urn="urn:adsk.eagle:package:18828921/1" type="model" library_version="35" library_locally_modified="yes">
+<description>100-QFP, 0.50 mm pitch, 16.00 mm span, 14.00 X 14.00 X 1.60 mm body
+&lt;p&gt;100-pin QFP package with 0.50 mm pitch, 16.00 mm lead span1 X 16.00 mm lead span2 with body size 14.00 X 14.00 X 1.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFP50P1600X1600X160-100N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -815,6 +941,141 @@ GND</text>
 <wire x1="2.54" y1="22.86" x2="-2.54" y2="22.86" width="0.254" layer="97"/>
 <text x="-6.096" y="24.384" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.366" y="-25.654" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LCMXO256-FPGA-CORE-100TQFP" urn="urn:adsk.eagle:symbol:18830550/1" library_version="35" library_locally_modified="yes">
+<pin name="GSRN_PL5D" x="-15.24" y="7.62" length="middle" function="dot"/>
+<pin name="TSALL_PL6B" x="-15.24" y="5.08" length="middle"/>
+<pin name="SLEEPN" x="-15.24" y="2.54" length="middle" function="dot"/>
+<pin name="VCC" x="-15.24" y="0" length="middle"/>
+<pin name="VCC_AUX" x="-15.24" y="-2.54" length="middle"/>
+<pin name="VCC_IO_0" x="-15.24" y="-5.08" length="middle"/>
+<pin name="VCC_IO_1" x="-15.24" y="-7.62" length="middle"/>
+<pin name="GND" x="-15.24" y="-10.16" length="middle"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LCMXO256-FPGA-PGM-100TQFP" urn="urn:adsk.eagle:symbol:18830549/1" library_version="35" library_locally_modified="yes">
+<pin name="TMS" x="-12.7" y="2.54" length="middle"/>
+<pin name="TCK" x="-12.7" y="0" length="middle"/>
+<pin name="TDI" x="-12.7" y="-2.54" length="middle"/>
+<pin name="TDO" x="-12.7" y="-5.08" length="middle"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LCMXO256-FPGA-BANK0-TOP-100TQFP" urn="urn:adsk.eagle:symbol:18830545/1" library_version="35" library_locally_modified="yes">
+<pin name="PT5C" x="-15.24" y="22.86" length="middle"/>
+<pin name="PT5B" x="-15.24" y="20.32" length="middle"/>
+<pin name="PT5A" x="-15.24" y="17.78" length="middle"/>
+<pin name="PT4F" x="-15.24" y="15.24" length="middle"/>
+<pin name="PT4E" x="-15.24" y="12.7" length="middle"/>
+<pin name="PT4D" x="-15.24" y="10.16" length="middle"/>
+<pin name="PT4C" x="-15.24" y="7.62" length="middle"/>
+<pin name="PT4B" x="-15.24" y="5.08" length="middle"/>
+<pin name="PT4A" x="-15.24" y="2.54" length="middle"/>
+<pin name="PT3D" x="-15.24" y="0" length="middle"/>
+<pin name="PT3C" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PT3B" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PT3A" x="-15.24" y="-7.62" length="middle"/>
+<pin name="PT2F" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PT2E" x="-15.24" y="-12.7" length="middle"/>
+<pin name="PT2D" x="-15.24" y="-15.24" length="middle"/>
+<pin name="PT2C" x="-15.24" y="-17.78" length="middle"/>
+<pin name="PT2B" x="-15.24" y="-20.32" length="middle"/>
+<pin name="PT2A" x="-15.24" y="-22.86" length="middle"/>
+<wire x1="-10.16" y1="-25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="25.4" x2="7.62" y2="25.4" width="0.254" layer="94"/>
+<wire x1="7.62" y1="25.4" x2="7.62" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<text x="-10.16" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LCMXO256-FPGA-BANK0-RIGHT-100TQFP" urn="urn:adsk.eagle:symbol:18830546/1" library_version="35" library_locally_modified="yes">
+<pin name="PR9B" x="-15.24" y="25.4" length="middle"/>
+<pin name="PR9A" x="-15.24" y="22.86" length="middle"/>
+<pin name="PR8B" x="-15.24" y="20.32" length="middle"/>
+<pin name="PR8A" x="-15.24" y="17.78" length="middle"/>
+<pin name="PR7D" x="-15.24" y="15.24" length="middle"/>
+<pin name="PR7C" x="-15.24" y="12.7" length="middle"/>
+<pin name="PR7B" x="-15.24" y="10.16" length="middle"/>
+<pin name="PR7A" x="-15.24" y="7.62" length="middle"/>
+<pin name="PR6B" x="-15.24" y="5.08" length="middle"/>
+<pin name="PR6A" x="-15.24" y="2.54" length="middle"/>
+<pin name="PR5D" x="-15.24" y="0" length="middle"/>
+<pin name="PR5C" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PR5B" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PR5A" x="-15.24" y="-7.62" length="middle"/>
+<pin name="PR4B" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PR4A" x="-15.24" y="-12.7" length="middle"/>
+<pin name="PR3D" x="-15.24" y="-15.24" length="middle"/>
+<pin name="PR3C" x="-15.24" y="-17.78" length="middle"/>
+<pin name="PR3B" x="-15.24" y="-20.32" length="middle"/>
+<pin name="PR3A" x="-15.24" y="-22.86" length="middle"/>
+<pin name="PR2B" x="-15.24" y="-25.4" length="middle"/>
+<pin name="PR2A" x="-15.24" y="-27.94" length="middle"/>
+<wire x1="-10.16" y1="-30.48" x2="-10.16" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="27.94" x2="7.62" y2="27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-30.48" x2="-10.16" y2="-30.48" width="0.254" layer="94"/>
+<text x="-10.16" y="30.48" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LCMXO256-FPGA-BANK1-LEFT-100TQFP" urn="urn:adsk.eagle:symbol:18830548/1" library_version="35" library_locally_modified="yes">
+<pin name="PL2A" x="-15.24" y="25.4" length="middle"/>
+<pin name="PL2B" x="-15.24" y="22.86" length="middle"/>
+<pin name="PL3A" x="-15.24" y="20.32" length="middle"/>
+<pin name="PL3B" x="-15.24" y="17.78" length="middle"/>
+<pin name="PL3C" x="-15.24" y="15.24" length="middle"/>
+<pin name="PL3D" x="-15.24" y="12.7" length="middle"/>
+<pin name="PL4A" x="-15.24" y="10.16" length="middle"/>
+<pin name="PL4B" x="-15.24" y="7.62" length="middle"/>
+<pin name="PL5A" x="-15.24" y="5.08" length="middle"/>
+<pin name="PL5B" x="-15.24" y="2.54" length="middle"/>
+<pin name="PL5C" x="-15.24" y="0" length="middle"/>
+<pin name="PL6A" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PL7A" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PL7B" x="-15.24" y="-12.7" length="middle"/>
+<pin name="PL7C" x="-15.24" y="-15.24" length="middle"/>
+<pin name="PL7D" x="-15.24" y="-17.78" length="middle"/>
+<pin name="PL8A" x="-15.24" y="-20.32" length="middle"/>
+<pin name="PL8B" x="-15.24" y="-22.86" length="middle"/>
+<pin name="PL9A" x="-15.24" y="-25.4" length="middle"/>
+<pin name="PL9B" x="-15.24" y="-27.94" length="middle"/>
+<wire x1="-10.16" y1="-30.48" x2="-10.16" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="27.94" x2="7.62" y2="27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-30.48" x2="-10.16" y2="-30.48" width="0.254" layer="94"/>
+<text x="-10.16" y="30.48" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LCMXO256-FPGA-BANK1-BOTTOM-100TQFP" urn="urn:adsk.eagle:symbol:18830547/1" library_version="35" library_locally_modified="yes">
+<pin name="PB2A" x="-15.24" y="17.78" length="middle"/>
+<pin name="PB2B" x="-15.24" y="15.24" length="middle"/>
+<pin name="PB2C" x="-15.24" y="12.7" length="middle"/>
+<pin name="PB2D" x="-15.24" y="10.16" length="middle"/>
+<pin name="PB3A" x="-15.24" y="7.62" length="middle"/>
+<pin name="PB3B" x="-15.24" y="5.08" length="middle"/>
+<pin name="PB3C" x="-15.24" y="2.54" length="middle"/>
+<pin name="PB3D" x="-15.24" y="0" length="middle"/>
+<pin name="PB4A" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PB4B" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PB4C" x="-15.24" y="-7.62" length="middle"/>
+<pin name="PB4D" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PB5A" x="-15.24" y="-12.7" length="middle"/>
+<pin name="PB5C" x="-15.24" y="-15.24" length="middle"/>
+<pin name="PB5D" x="-15.24" y="-17.78" length="middle"/>
+<wire x1="-10.16" y1="-20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-20.32" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<text x="-10.16" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1248,7 +1509,7 @@ GND</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M20-7821646-FEM-HDR" urn="urn:adsk.eagle:component:18698695/2" prefix="CON" library_version="33">
+<deviceset name="M20-7821646-FEM-HDR" urn="urn:adsk.eagle:component:18698695/2" prefix="CON" library_version="35" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="FEMALE-HEADER-16-POS" x="0" y="0"/>
 </gates>
@@ -1274,6 +1535,117 @@ GND</text>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:18698632/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MACHXO-FPGA" urn="urn:adsk.eagle:component:18830551/2" locally_modified="yes" prefix="U" library_version="35" library_locally_modified="yes">
+<description>Lattice Semiconductors MachXO FPGA (256/640/1200/2280 LUTs) 1.2/1.8/2.5/3.3 VDC</description>
+<gates>
+<gate name="_CORE" symbol="LCMXO256-FPGA-CORE-100TQFP" x="0" y="0" addlevel="must"/>
+<gate name="_JTAG" symbol="LCMXO256-FPGA-PGM-100TQFP" x="-2.54" y="-25.4"/>
+<gate name="_BANK1_TOP" symbol="LCMXO256-FPGA-BANK0-TOP-100TQFP" x="58.42" y="27.94"/>
+<gate name="_BANK1_RIGHT" symbol="LCMXO256-FPGA-BANK0-RIGHT-100TQFP" x="58.42" y="-33.02"/>
+<gate name="_BANK0_LEFT" symbol="LCMXO256-FPGA-BANK1-LEFT-100TQFP" x="-45.72" y="30.48"/>
+<gate name="_BANK0_BOTTOM" symbol="LCMXO256-FPGA-BANK1-BOTTOM-100TQFP" x="-45.72" y="-30.48"/>
+</gates>
+<devices>
+<device name="100TQFP" package="QFP50P1600X1600X160-100N">
+<connects>
+<connect gate="_BANK0_BOTTOM" pin="PB2A" pad="29"/>
+<connect gate="_BANK0_BOTTOM" pin="PB2B" pad="30"/>
+<connect gate="_BANK0_BOTTOM" pin="PB2C" pad="32"/>
+<connect gate="_BANK0_BOTTOM" pin="PB2D" pad="34"/>
+<connect gate="_BANK0_BOTTOM" pin="PB3A" pad="36"/>
+<connect gate="_BANK0_BOTTOM" pin="PB3B" pad="37"/>
+<connect gate="_BANK0_BOTTOM" pin="PB3C" pad="38"/>
+<connect gate="_BANK0_BOTTOM" pin="PB3D" pad="39"/>
+<connect gate="_BANK0_BOTTOM" pin="PB4A" pad="43"/>
+<connect gate="_BANK0_BOTTOM" pin="PB4B" pad="44"/>
+<connect gate="_BANK0_BOTTOM" pin="PB4C" pad="45"/>
+<connect gate="_BANK0_BOTTOM" pin="PB4D" pad="46"/>
+<connect gate="_BANK0_BOTTOM" pin="PB5A" pad="47"/>
+<connect gate="_BANK0_BOTTOM" pin="PB5C" pad="49"/>
+<connect gate="_BANK0_BOTTOM" pin="PB5D" pad="50"/>
+<connect gate="_BANK0_LEFT" pin="PL2A" pad="1"/>
+<connect gate="_BANK0_LEFT" pin="PL2B" pad="2"/>
+<connect gate="_BANK0_LEFT" pin="PL3A" pad="3"/>
+<connect gate="_BANK0_LEFT" pin="PL3B" pad="4"/>
+<connect gate="_BANK0_LEFT" pin="PL3C" pad="5"/>
+<connect gate="_BANK0_LEFT" pin="PL3D" pad="6"/>
+<connect gate="_BANK0_LEFT" pin="PL4A" pad="7"/>
+<connect gate="_BANK0_LEFT" pin="PL4B" pad="8"/>
+<connect gate="_BANK0_LEFT" pin="PL5A" pad="9"/>
+<connect gate="_BANK0_LEFT" pin="PL5B" pad="11"/>
+<connect gate="_BANK0_LEFT" pin="PL5C" pad="13"/>
+<connect gate="_BANK0_LEFT" pin="PL6A" pad="15"/>
+<connect gate="_BANK0_LEFT" pin="PL7A" pad="17"/>
+<connect gate="_BANK0_LEFT" pin="PL7B" pad="18"/>
+<connect gate="_BANK0_LEFT" pin="PL7C" pad="19"/>
+<connect gate="_BANK0_LEFT" pin="PL7D" pad="20"/>
+<connect gate="_BANK0_LEFT" pin="PL8A" pad="21"/>
+<connect gate="_BANK0_LEFT" pin="PL8B" pad="22"/>
+<connect gate="_BANK0_LEFT" pin="PL9A" pad="23"/>
+<connect gate="_BANK0_LEFT" pin="PL9B" pad="27"/>
+<connect gate="_BANK1_RIGHT" pin="PR2A" pad="76"/>
+<connect gate="_BANK1_RIGHT" pin="PR2B" pad="73"/>
+<connect gate="_BANK1_RIGHT" pin="PR3A" pad="72"/>
+<connect gate="_BANK1_RIGHT" pin="PR3B" pad="71"/>
+<connect gate="_BANK1_RIGHT" pin="PR3C" pad="70"/>
+<connect gate="_BANK1_RIGHT" pin="PR3D" pad="69"/>
+<connect gate="_BANK1_RIGHT" pin="PR4A" pad="68"/>
+<connect gate="_BANK1_RIGHT" pin="PR4B" pad="67"/>
+<connect gate="_BANK1_RIGHT" pin="PR5A" pad="66"/>
+<connect gate="_BANK1_RIGHT" pin="PR5B" pad="65"/>
+<connect gate="_BANK1_RIGHT" pin="PR5C" pad="64"/>
+<connect gate="_BANK1_RIGHT" pin="PR5D" pad="63"/>
+<connect gate="_BANK1_RIGHT" pin="PR6A" pad="61"/>
+<connect gate="_BANK1_RIGHT" pin="PR6B" pad="59"/>
+<connect gate="_BANK1_RIGHT" pin="PR7A" pad="58"/>
+<connect gate="_BANK1_RIGHT" pin="PR7B" pad="57"/>
+<connect gate="_BANK1_RIGHT" pin="PR7C" pad="56"/>
+<connect gate="_BANK1_RIGHT" pin="PR7D" pad="55"/>
+<connect gate="_BANK1_RIGHT" pin="PR8A" pad="54"/>
+<connect gate="_BANK1_RIGHT" pin="PR8B" pad="53"/>
+<connect gate="_BANK1_RIGHT" pin="PR9A" pad="52"/>
+<connect gate="_BANK1_RIGHT" pin="PR9B" pad="51"/>
+<connect gate="_BANK1_TOP" pin="PT2A" pad="100"/>
+<connect gate="_BANK1_TOP" pin="PT2B" pad="99"/>
+<connect gate="_BANK1_TOP" pin="PT2C" pad="98"/>
+<connect gate="_BANK1_TOP" pin="PT2D" pad="97"/>
+<connect gate="_BANK1_TOP" pin="PT2E" pad="96"/>
+<connect gate="_BANK1_TOP" pin="PT2F" pad="95"/>
+<connect gate="_BANK1_TOP" pin="PT3A" pad="94"/>
+<connect gate="_BANK1_TOP" pin="PT3B" pad="91"/>
+<connect gate="_BANK1_TOP" pin="PT3C" pad="89"/>
+<connect gate="_BANK1_TOP" pin="PT3D" pad="87"/>
+<connect gate="_BANK1_TOP" pin="PT4A" pad="86"/>
+<connect gate="_BANK1_TOP" pin="PT4B" pad="85"/>
+<connect gate="_BANK1_TOP" pin="PT4C" pad="83"/>
+<connect gate="_BANK1_TOP" pin="PT4D" pad="82"/>
+<connect gate="_BANK1_TOP" pin="PT4E" pad="81"/>
+<connect gate="_BANK1_TOP" pin="PT4F" pad="80"/>
+<connect gate="_BANK1_TOP" pin="PT5A" pad="79"/>
+<connect gate="_BANK1_TOP" pin="PT5B" pad="78"/>
+<connect gate="_BANK1_TOP" pin="PT5C" pad="77"/>
+<connect gate="_CORE" pin="GND" pad="12 25 40 42 62 75 84 93"/>
+<connect gate="_CORE" pin="GSRN_PL5D" pad="14"/>
+<connect gate="_CORE" pin="SLEEPN" pad="48"/>
+<connect gate="_CORE" pin="TSALL_PL6B" pad="16"/>
+<connect gate="_CORE" pin="VCC" pad="35 90"/>
+<connect gate="_CORE" pin="VCC_AUX" pad="88"/>
+<connect gate="_CORE" pin="VCC_IO_0" pad="60 74 92"/>
+<connect gate="_CORE" pin="VCC_IO_1" pad="10 24 41"/>
+<connect gate="_JTAG" pin="TCK" pad="28"/>
+<connect gate="_JTAG" pin="TDI" pad="33"/>
+<connect gate="_JTAG" pin="TDO" pad="31"/>
+<connect gate="_JTAG" pin="TMS" pad="26"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18828921/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10188,6 +10560,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CON1" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="M20-7821646-FEM-HDR" device="" package3d_urn="urn:adsk.eagle:package:18698632/1"/>
+<part name="U9" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="MACHXO-FPGA" device="100TQFP" package3d_urn="urn:adsk.eagle:package:18828921/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10407,6 +10780,29 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="CON1" gate="G$1" x="202.946" y="63.5" smashed="yes">
 <attribute name="NAME" x="196.85" y="87.884" size="1.27" layer="95"/>
 <attribute name="VALUE" x="195.58" y="37.846" size="1.27" layer="96"/>
+</instance>
+<instance part="U9" gate="_JTAG" x="-246.38" y="170.18" smashed="yes">
+<attribute name="NAME" x="-254" y="177.8" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-254" y="160.02" size="1.778" layer="96"/>
+</instance>
+<instance part="U9" gate="_CORE" x="-243.84" y="195.58" smashed="yes">
+<attribute name="NAME" x="-254" y="208.28" size="1.778" layer="95"/>
+</instance>
+<instance part="U9" gate="_BANK1_TOP" x="-187.96" y="182.88" smashed="yes">
+<attribute name="NAME" x="-198.12" y="210.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-198.12" y="154.94" size="1.778" layer="96"/>
+</instance>
+<instance part="U9" gate="_BANK1_RIGHT" x="-142.24" y="182.88" smashed="yes">
+<attribute name="NAME" x="-152.4" y="213.36" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-152.4" y="149.86" size="1.778" layer="96"/>
+</instance>
+<instance part="U9" gate="_BANK0_LEFT" x="-142.24" y="114.3" smashed="yes">
+<attribute name="NAME" x="-152.4" y="144.78" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-152.4" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="U9" gate="_BANK0_BOTTOM" x="-187.96" y="124.46" smashed="yes">
+<attribute name="NAME" x="-198.12" y="147.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-198.12" y="101.6" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>

@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWw3MDQ2MzI" projecturn="a.YnVzaW5lc3M6Z21haWw3MDQ2MzIjMjAyMDAzMjMyNzc5NDAzNTE" f3durn="urn:adsk.wipprod:dm.lineage:SKI6Y7I3R2GK5LyZdhPrew" pcbguid="6684de3e-4798-432d-a463-1731bf560a7c" lastpulledtime="2020-03-23T21:54:50Z" lastsyncedchangeguid="26928c01-5e82-ac68-2b74-82bd82c14e25" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="bb699a26-ff62-3385-8bdc-24f4424fb3f4" lastpushedtime="2020-03-30T21:33:14Z" linktopcb3d="%12"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWw3MDQ2MzI" projecturn="a.YnVzaW5lc3M6Z21haWw3MDQ2MzIjMjAyMDAzMjMyNzc5NDAzNTE" f3durn="urn:adsk.wipprod:dm.lineage:SKI6Y7I3R2GK5LyZdhPrew" pcbguid="6684de3e-4798-432d-a463-1731bf560a7c" lastpulledtime="2020-03-23T21:54:50Z" lastsyncedchangeguid="26928c01-5e82-ac68-2b74-82bd82c14e25" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="746e7fcb-8667-d4be-1ace-f9509a1cfff9" lastpushedtime="2020-04-02T16:11:19Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="0" y1="0" x2="99.06" y2="0" width="0.254" layer="20"/>
 <wire x1="99.06" y1="40.64" x2="101.6" y2="38.1" width="0.254" layer="20"/>
@@ -413,7 +413,7 @@ ADJ.</text>
 <text x="0" y="7.0927" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.0927" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:footprint:18698688/1" library_version="33">
+<package name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:footprint:18698688/1" library_version="35" library_locally_modified="yes">
 <description>Single-row, 16-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.65 mm insulator length, 41.04 X 2.50 X 8.65 mm body
 &lt;p&gt;Single-row (1X16), 16-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.25 mm tail length and 8.65 mm insulator length with overall size 41.04 X 2.50 X 8.65 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <circle x="0" y="1.764" radius="0.25" width="0" layer="21"/>
@@ -443,6 +443,125 @@ ADJ.</text>
 <pad name="16" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.649" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.895" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="QFP50P1600X1600X160-100N" urn="urn:adsk.eagle:footprint:18830197/1" library_version="35" library_locally_modified="yes">
+<description>100-QFP, 0.50 mm pitch, 16.00 mm span, 14.00 X 14.00 X 1.60 mm body
+&lt;p&gt;100-pin QFP package with 0.50 mm pitch, 16.00 mm lead span1 X 16.00 mm lead span2 with body size 14.00 X 14.00 X 1.60 mm&lt;/p&gt;</description>
+<circle x="-7.7656" y="6.644" radius="0.25" width="0" layer="21"/>
+<wire x1="-7.05" y1="6.394" x2="-7.05" y2="7.05" width="0.12" layer="21"/>
+<wire x1="-7.05" y1="7.05" x2="-6.394" y2="7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="6.394" x2="7.05" y2="7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="7.05" x2="6.394" y2="7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="-6.394" x2="7.05" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="-7.05" x2="6.394" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="-7.05" y1="-6.394" x2="-7.05" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="-7.05" y1="-7.05" x2="-6.394" y2="-7.05" width="0.12" layer="21"/>
+<wire x1="7.05" y1="-7.05" x2="-7.05" y2="-7.05" width="0.12" layer="51"/>
+<wire x1="-7.05" y1="-7.05" x2="-7.05" y2="7.05" width="0.12" layer="51"/>
+<wire x1="-7.05" y1="7.05" x2="7.05" y2="7.05" width="0.12" layer="51"/>
+<wire x1="7.05" y1="7.05" x2="7.05" y2="-7.05" width="0.12" layer="51"/>
+<smd name="1" x="-7.6813" y="6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="2" x="-7.6813" y="5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="3" x="-7.6813" y="5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="4" x="-7.6813" y="4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="5" x="-7.6813" y="4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="6" x="-7.6813" y="3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="7" x="-7.6813" y="3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="8" x="-7.6813" y="2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="9" x="-7.6813" y="2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="10" x="-7.6813" y="1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="11" x="-7.6813" y="1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="12" x="-7.6813" y="0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="13" x="-7.6813" y="0" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="14" x="-7.6813" y="-0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="15" x="-7.6813" y="-1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="16" x="-7.6813" y="-1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="17" x="-7.6813" y="-2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="18" x="-7.6813" y="-2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="19" x="-7.6813" y="-3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="20" x="-7.6813" y="-3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="21" x="-7.6813" y="-4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="22" x="-7.6813" y="-4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="23" x="-7.6813" y="-5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="24" x="-7.6813" y="-5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="25" x="-7.6813" y="-6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="26" x="-6" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="27" x="-5.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="28" x="-5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="29" x="-4.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="30" x="-4" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="31" x="-3.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="32" x="-3" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="33" x="-2.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="34" x="-2" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="35" x="-1.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="36" x="-1" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="37" x="-0.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="38" x="0" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="39" x="0.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="40" x="1" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="41" x="1.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="42" x="2" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="43" x="2.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="44" x="3" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="45" x="3.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="46" x="4" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="47" x="4.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="48" x="5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="49" x="5.5" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="50" x="6" y="-7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="51" x="7.6813" y="-6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="52" x="7.6813" y="-5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="53" x="7.6813" y="-5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="54" x="7.6813" y="-4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="55" x="7.6813" y="-4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="56" x="7.6813" y="-3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="57" x="7.6813" y="-3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="58" x="7.6813" y="-2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="59" x="7.6813" y="-2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="60" x="7.6813" y="-1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="61" x="7.6813" y="-1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="62" x="7.6813" y="-0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="63" x="7.6813" y="0" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="64" x="7.6813" y="0.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="65" x="7.6813" y="1" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="66" x="7.6813" y="1.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="67" x="7.6813" y="2" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="68" x="7.6813" y="2.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="69" x="7.6813" y="3" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="70" x="7.6813" y="3.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="71" x="7.6813" y="4" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="72" x="7.6813" y="4.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="73" x="7.6813" y="5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="74" x="7.6813" y="5.5" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="75" x="7.6813" y="6" dx="1.5998" dy="0.28" layer="1"/>
+<smd name="76" x="6" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="77" x="5.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="78" x="5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="79" x="4.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="80" x="4" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="81" x="3.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="82" x="3" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="83" x="2.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="84" x="2" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="85" x="1.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="86" x="1" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="87" x="0.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="88" x="0" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="89" x="-0.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="90" x="-1" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="91" x="-1.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="92" x="-2" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="93" x="-2.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="94" x="-3" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="95" x="-3.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="96" x="-4" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="97" x="-4.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="98" x="-5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="99" x="-5.5" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<smd name="100" x="-6" y="7.6813" dx="1.5998" dy="0.28" layer="1" rot="R90"/>
+<text x="0" y="9.1162" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.1162" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -496,11 +615,18 @@ ADJ.</text>
 <packageinstance name="QFP80P1200X1200X160-44N"/>
 </packageinstances>
 </package3d>
-<package3d name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:package:18698632/1" type="model" library_version="33">
+<package3d name="HDRVR16W64P254_1X16_4104X250X865B" urn="urn:adsk.eagle:package:18698632/1" type="model" library_version="35" library_locally_modified="yes">
 <description>Single-row, 16-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.65 mm insulator length, 41.04 X 2.50 X 8.65 mm body
 &lt;p&gt;Single-row (1X16), 16-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.25 mm tail length and 8.65 mm insulator length with overall size 41.04 X 2.50 X 8.65 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRVR16W64P254_1X16_4104X250X865B"/>
+</packageinstances>
+</package3d>
+<package3d name="QFP50P1600X1600X160-100N" urn="urn:adsk.eagle:package:18828921/1" type="model" library_version="35" library_locally_modified="yes">
+<description>100-QFP, 0.50 mm pitch, 16.00 mm span, 14.00 X 14.00 X 1.60 mm body
+&lt;p&gt;100-pin QFP package with 0.50 mm pitch, 16.00 mm lead span1 X 16.00 mm lead span2 with body size 14.00 X 14.00 X 1.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFP50P1600X1600X160-100N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2361,14 +2487,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <class number="1" name="power" width="0.254" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+<designrules name="SparkFun">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -2379,22 +2498,22 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="8mil"/>
+<param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
+<param name="msWidth" value="8mil"/>
+<param name="msDrill" value="20mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -2404,15 +2523,15 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="12mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="12mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="10mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -2429,7 +2548,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -2679,6 +2798,10 @@ design rules under a new name.</description>
 <element name="CON1" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="HDRVR16W64P254_1X16_4104X250X865B" package3d_urn="urn:adsk.eagle:package:18698632/1" value="M20-7821646-FEM-HDR" x="23" y="35" smashed="yes">
 <attribute name="NAME" x="23.55" y="31.499" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="23" y="33.105" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U9" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="QFP50P1600X1600X160-100N" package3d_urn="urn:adsk.eagle:package:18828921/1" value="MACHXO-FPGA100TQFP" x="79.05" y="38.6" smashed="yes">
+<attribute name="NAME" x="79.05" y="47.7162" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="79.05" y="29.4838" size="1.27" layer="27" align="top-center"/>
 </element>
 </elements>
 <signals>
