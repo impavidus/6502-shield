@@ -19,33 +19,33 @@ eagle.epf
 *.job
 
 # CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+#*.$$$
+#*.cmp
+#*.ly2
+#*.l15
+#*.sol
+#*.plc
+#*.stc
+#*.sts
+#*.crc
+#*.crs
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.xln
+#*.dri
+#*.drl
+#*.gpi
+#*.pls
+#*.ger
+#*.xln
 
-*.drd
-*.drd.*
+#*.drd
+#*.drd.*
 
 *.s#*
 *.b#*
 
-*.info
+#*.info
 
-*.eps
+#*.eps
 
 # file locks introduced since 7.x
 *.lck
