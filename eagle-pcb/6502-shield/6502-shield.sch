@@ -12210,18 +12210,18 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <segment>
 <pinref part="PCB1" gate="G$1" pin="24"/>
 <wire x1="116.84" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="66.04" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<label x="88.9" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="106.68" y1="66.04" x2="106.68" y2="63.754" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="63.754" x2="88.9" y2="63.754" width="0.1524" layer="91"/>
+<label x="88.9" y="63.754" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DMA_IO" class="0">
 <segment>
 <pinref part="PCB1" gate="G$1" pin="22"/>
 <wire x1="116.84" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="68.58" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<label x="58.42" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="104.14" y1="68.58" x2="104.14" y2="65.786" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="65.786" x2="58.42" y2="65.786" width="0.1524" layer="91"/>
+<label x="58.42" y="65.786" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D6_IO" class="0">
@@ -12273,13 +12273,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <label x="152.4" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="WE_IO" class="0">
-<segment>
-<pinref part="PCB1" gate="G$1" pin="29"/>
-<wire x1="121.92" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
-<label x="132.08" y="60.96" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="D7_IO" class="0">
 <segment>
 <pinref part="PCB1" gate="G$1" pin="47"/>
@@ -12306,6 +12299,13 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <pinref part="PCB1" gate="G$1" pin="53"/>
 <wire x1="121.92" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
 <label x="134.62" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WE_IO" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="28"/>
+<wire x1="116.84" y1="60.96" x2="59.69" y2="60.96" width="0.1524" layer="91"/>
+<label x="59.69" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -13997,179 +13997,11 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <label x="35.56" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PB7" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_1" pin="A"/>
-<wire x1="129.54" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
-<label x="127" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB6" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_2" pin="A"/>
-<wire x1="129.54" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
-<label x="127" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB5" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_3" pin="A"/>
-<wire x1="129.54" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
-<label x="127" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB4" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_4" pin="A"/>
-<wire x1="129.54" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
-<label x="127" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB3" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_5" pin="A"/>
-<wire x1="129.54" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
-<label x="127" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB2" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_6" pin="A"/>
-<wire x1="129.54" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
-<label x="127" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB1" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_7" pin="A"/>
-<wire x1="129.54" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<label x="127" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB0" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_8" pin="A"/>
-<wire x1="129.54" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<label x="127" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB0_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_8" pin="B"/>
-<wire x1="149.86" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
-<label x="152.4" y="71.12" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB1_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_7" pin="B"/>
-<wire x1="149.86" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="152.4" y="78.74" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB2_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_6" pin="B"/>
-<wire x1="149.86" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="152.4" y="86.36" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB3_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_5" pin="B"/>
-<wire x1="149.86" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
-<label x="152.4" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB4_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_4" pin="B"/>
-<wire x1="149.86" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
-<label x="152.4" y="101.6" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB5_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_3" pin="B"/>
-<wire x1="149.86" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
-<label x="152.4" y="109.22" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB6_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_2" pin="B"/>
-<wire x1="149.86" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
-<label x="152.4" y="116.84" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB7_IO" class="0">
-<segment>
-<pinref part="U5" gate="_BUFF_1" pin="B"/>
-<wire x1="149.86" y1="124.46" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
-<label x="152.4" y="124.46" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="DMA" class="0">
 <segment>
 <pinref part="U6" gate="_BUFF_6" pin="A"/>
 <wire x1="220.98" y1="86.36" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
 <label x="218.44" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="EEPROM_PGM" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_2" pin="A"/>
-<wire x1="220.98" y1="116.84" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
-<label x="218.44" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="IRQ_COPROC" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_3" pin="A"/>
-<wire x1="220.98" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
-<label x="218.44" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="OE" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_1" pin="A"/>
-<wire x1="220.98" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
-<label x="218.44" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CLK" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_5" pin="A"/>
-<wire x1="220.98" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
-<label x="218.44" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CLK_IO" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_5" pin="B"/>
-<wire x1="241.3" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
-<label x="243.84" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OE_IO" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_1" pin="B"/>
-<wire x1="241.3" y1="124.46" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
-<label x="243.84" y="124.46" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IRQ_COPROC_IO" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_3" pin="B"/>
-<wire x1="241.3" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
-<label x="243.84" y="109.22" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="EEPROM_PGM_IO" class="0">
-<segment>
-<pinref part="U6" gate="_BUFF_2" pin="B"/>
-<wire x1="241.3" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
-<label x="243.84" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DMA_IO" class="0">
@@ -14515,18 +14347,186 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <label x="60.96" y="149.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="WE" class="0">
+<net name="PB7" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_8" pin="A"/>
+<wire x1="129.54" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<label x="127" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB6" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_7" pin="A"/>
+<wire x1="129.54" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<label x="127" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB5" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_6" pin="A"/>
+<wire x1="129.54" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
+<label x="127" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB4" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_5" pin="A"/>
+<wire x1="129.54" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
+<label x="127" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB3" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_4" pin="A"/>
+<wire x1="129.54" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<label x="127" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB2" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_3" pin="A"/>
+<wire x1="129.54" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
+<label x="127" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB1" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_2" pin="A"/>
+<wire x1="129.54" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
+<label x="127" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB0" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_1" pin="A"/>
+<wire x1="129.54" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
+<label x="127" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PB7_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_8" pin="B"/>
+<wire x1="149.86" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<label x="152.4" y="71.12" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB6_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_7" pin="B"/>
+<wire x1="149.86" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
+<label x="152.4" y="78.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB5_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_6" pin="B"/>
+<wire x1="149.86" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
+<label x="152.4" y="86.36" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB4_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_5" pin="B"/>
+<wire x1="149.86" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<label x="152.4" y="93.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB3_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_4" pin="B"/>
+<wire x1="149.86" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
+<label x="152.4" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB2_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_3" pin="B"/>
+<wire x1="149.86" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
+<label x="152.4" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB1_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_2" pin="B"/>
+<wire x1="149.86" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
+<label x="152.4" y="116.84" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB0_IO" class="0">
+<segment>
+<pinref part="U5" gate="_BUFF_1" pin="B"/>
+<wire x1="149.86" y1="124.46" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
+<label x="152.4" y="124.46" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="EEPROM_PGM" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_5" pin="A"/>
+<wire x1="220.98" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
+<label x="218.44" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CLK" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_2" pin="A"/>
+<wire x1="220.98" y1="116.84" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
+<label x="218.44" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CLK_IO" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_2" pin="B"/>
+<wire x1="241.3" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
+<label x="243.84" y="116.84" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="EEPROM_PGM_IO" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_5" pin="B"/>
+<wire x1="241.3" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
+<label x="243.84" y="93.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="IRQ_COPROC" class="0">
 <segment>
 <pinref part="U6" gate="_BUFF_4" pin="A"/>
 <wire x1="220.98" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
 <label x="218.44" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="WE_IO" class="0">
+<net name="IRQ_COPROC_IO" class="0">
 <segment>
 <pinref part="U6" gate="_BUFF_4" pin="B"/>
 <wire x1="241.3" y1="101.6" x2="243.84" y2="101.6" width="0.1524" layer="91"/>
 <label x="243.84" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WE" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_1" pin="A"/>
+<wire x1="220.98" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
+<label x="218.44" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="OE" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_3" pin="A"/>
+<wire x1="220.98" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<label x="218.44" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="WE_IO" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_1" pin="B"/>
+<wire x1="241.3" y1="124.46" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="243.84" y="124.46" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="OE_IO" class="0">
+<segment>
+<pinref part="U6" gate="_BUFF_3" pin="B"/>
+<wire x1="241.3" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
+<label x="243.84" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
