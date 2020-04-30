@@ -300,7 +300,7 @@
 <text x="0" y="7.0927" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.0927" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="DIP8/4" urn="urn:adsk.eagle:footprint:18885295/2" locally_modified="yes" library_version="51" library_locally_modified="yes">
+<package name="DIP8/4" urn="urn:adsk.eagle:footprint:18885295/3" library_version="52" library_locally_modified="yes">
 <pad name="5" x="3.81" y="3.81" drill="0.6" shape="square"/>
 <pad name="8" x="-3.81" y="3.81" drill="0.6" shape="square"/>
 <pad name="1" x="-3.81" y="-3.81" drill="0.6" shape="square"/>
@@ -309,10 +309,10 @@
 <wire x1="4" y1="-3" x2="4" y2="3" width="0.127" layer="21"/>
 <wire x1="-3.937" y1="-3.048" x2="-3.048" y2="-3.048" width="0.127" layer="21"/>
 <wire x1="-3.048" y1="-3.048" x2="-3.048" y2="-3.683" width="0.127" layer="21"/>
-<text x="-4" y="5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4" y="-6" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-3.048" y1="-3.683" x2="3.048" y2="-3.683" width="0.127" layer="21"/>
 <wire x1="-3.937" y1="-3.048" x2="-3.937" y2="3.048" width="0.127" layer="21"/>
+<text x="-4" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4" y="-6" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-3.429" y="-2.54" radius="0.127" width="0.4064" layer="21"/>
 </package>
 <package name="TC33X" urn="urn:adsk.eagle:footprint:18693294/1" library_version="42" library_locally_modified="yes">
@@ -486,7 +486,7 @@
 <text x="0" y="4.5174" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.0774" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="OSHW_LOGO" library_version="51" library_locally_modified="yes">
+<package name="OSHW_LOGO" urn="urn:adsk.eagle:footprint:19605461/1" library_version="52" library_locally_modified="yes">
 <rectangle x1="0.41401875" y1="-0.03175" x2="0.47498125" y2="0.03175" layer="21"/>
 <rectangle x1="0.66548125" y1="-0.03175" x2="0.73151875" y2="0.03175" layer="21"/>
 <rectangle x1="0.85851875" y1="-0.03175" x2="0.98298125" y2="0.03175" layer="21"/>
@@ -849,7 +849,7 @@
 <packageinstance name="QFP80P1200X1200X160-44N"/>
 </packageinstances>
 </package3d>
-<package3d name="DIP8/4" urn="urn:adsk.eagle:package:18885296/3" type="empty" library_version="51" library_locally_modified="yes">
+<package3d name="DIP8/4" urn="urn:adsk.eagle:package:18885296/4" type="empty" library_version="52" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DIP8/4"/>
 </packageinstances>
@@ -876,6 +876,11 @@
 &lt;p&gt;20-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 6.50 X 4.40 X 1.20 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOP65P640X120-20N"/>
+</packageinstances>
+</package3d>
+<package3d name="OSHW_LOGO" urn="urn:adsk.eagle:package:19605462/1" type="empty" library_version="52" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="OSHW_LOGO"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1034,7 +1039,7 @@
 <text x="-10.16" y="27.94" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-35.56" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="W65C02-44" urn="urn:adsk.eagle:symbol:18477223/2" library_version="36">
+<symbol name="W65C02-44" urn="urn:adsk.eagle:symbol:18477223/2" locally_modified="yes" library_version="52" library_locally_modified="yes">
 <wire x1="-15.24" y1="35.56" x2="15.24" y2="35.56" width="0.254" layer="94"/>
 <wire x1="15.24" y1="35.56" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
@@ -1078,6 +1083,8 @@
 <pin name="D0" x="20.32" y="33.02" length="middle" rot="R180"/>
 <pin name="VSS" x="0" y="-22.86" length="middle" rot="R90"/>
 <pin name="VDD" x="0" y="40.64" length="middle" rot="R270"/>
+<text x="-15.24" y="38.1" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CRYSTAL_OSCILLATOR" urn="urn:adsk.eagle:symbol:18885294/2" library_version="43">
 <pin name="VCC" x="0.254" y="6.858" visible="off" length="short" rot="R270"/>
@@ -1457,7 +1464,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="W65C02S" urn="urn:adsk.eagle:component:18477230/4" prefix="U" library_version="36">
+<deviceset name="W65C02S" urn="urn:adsk.eagle:component:18477230/4" prefix="U" library_version="52" library_locally_modified="yes">
 <description>w65c02s 8-bit microprocessor</description>
 <gates>
 <gate name="G$1" symbol="W65C02-44" x="-2.54" y="-2.54"/>
@@ -1514,7 +1521,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRYSTAL-OSC-DIP8/4" urn="urn:adsk.eagle:component:18885297/4" library_version="51" library_locally_modified="yes">
+<deviceset name="CRYSTAL-OSC-DIP8/4" urn="urn:adsk.eagle:component:18885297/5" library_version="52" library_locally_modified="yes">
 <description>Oscillator socket, half size. 8-DIP 4 lead</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_OSCILLATOR" x="0" y="2.54"/>
@@ -1528,7 +1535,7 @@
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18885296/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18885296/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1707,11 +1714,14 @@ Mouser: &lt;a href="https://www.mouser.com/ProductDetail/Texas-Instruments/TXB01
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSHW_LOGO" library_version="51" library_locally_modified="yes">
+<deviceset name="OSHW_LOGO" urn="urn:adsk.eagle:component:19605463/1" library_version="52" library_locally_modified="yes">
 <gates>
 </gates>
 <devices>
 <device name="" package="OSHW_LOGO">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19605462/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11374,7 +11384,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="CPU" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="W65C02S" device="" package3d_urn="urn:adsk.eagle:package:18436815/2"/>
+<part name="CPU" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="W65C02S" device="" package3d_urn="urn:adsk.eagle:package:18436815/2" value="W65C02S"/>
 <part name="PB_STEP" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="MCSLPT4644B1TR-TACT-SW" device="" package3d_urn="urn:adsk.eagle:package:18592201/6"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
@@ -11403,7 +11413,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="J1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
-<part name="EXT_XO" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="CRYSTAL-OSC-DIP8/4" device="" package3d_urn="urn:adsk.eagle:package:18885296/3"/>
+<part name="EXT_XO" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="CRYSTAL-OSC-DIP8/4" device="" package3d_urn="urn:adsk.eagle:package:18885296/4"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X8" device="" package3d_urn="urn:adsk.eagle:package:22481/2"/>
@@ -11497,23 +11507,17 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <attribute name="VALUE" x="234.696" y="54.229" size="1.778" layer="96"/>
 </instance>
 <instance part="P+4" gate="VCC" x="27.94" y="12.7" smashed="yes">
-<attribute name="VALUE" x="25.4" y="10.16" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="30.48" y="16.256" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND4" gate="1" x="48.26" y="7.62" smashed="yes">
 <attribute name="VALUE" x="45.72" y="5.08" size="1.778" layer="96"/>
 </instance>
 <instance part="P+5" gate="VCC" x="228.6" y="73.66" smashed="yes">
-<attribute name="VALUE" x="226.06" y="71.12" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="231.394" y="76.2" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND5" gate="1" x="228.6" y="40.64" smashed="yes">
-<attribute name="VALUE" x="226.06" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="GND6" gate="1" x="119.38" y="12.7" smashed="yes">
-<attribute name="VALUE" x="116.84" y="10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="GND7" gate="1" x="17.78" y="88.9" smashed="yes">
-<attribute name="VALUE" x="15.24" y="86.36" size="1.778" layer="96"/>
-</instance>
+<instance part="GND5" gate="1" x="228.6" y="40.64" smashed="yes"/>
+<instance part="GND6" gate="1" x="119.38" y="12.7" smashed="yes"/>
+<instance part="GND7" gate="1" x="17.78" y="88.9" smashed="yes"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="173.99" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="186.69" y="1.27" size="2.54" layer="94"/>
@@ -11521,31 +11525,21 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <attribute name="DRAWING_NAME" x="191.77" y="19.05" size="2.54" layer="94"/>
 </instance>
 <instance part="PB_STEP" gate="G$1" x="218.186" y="153.924" smashed="yes"/>
-<instance part="GND2" gate="1" x="214.884" y="136.906" smashed="yes">
-<attribute name="VALUE" x="212.344" y="134.366" size="1.778" layer="96"/>
-</instance>
+<instance part="GND2" gate="1" x="214.884" y="136.906" smashed="yes"/>
 <instance part="R3" gate="G$1" x="238.76" y="109.728" smashed="yes" rot="R90">
 <attribute name="VALUE" x="242.062" y="105.918" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND8" gate="1" x="238.76" y="100.838" smashed="yes">
-<attribute name="VALUE" x="236.22" y="98.298" size="1.778" layer="96"/>
-</instance>
+<instance part="GND8" gate="1" x="238.76" y="100.838" smashed="yes"/>
 <instance part="JP1" gate="A" x="226.822" y="120.396" smashed="yes">
 <attribute name="NAME" x="219.964" y="113.157" size="1.778" layer="95"/>
 <attribute name="VALUE" x="220.472" y="112.776" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="217.17" y="100.838" smashed="yes">
-<attribute name="VALUE" x="214.63" y="98.298" size="1.778" layer="96"/>
-</instance>
+<instance part="GND3" gate="1" x="217.17" y="100.838" smashed="yes"/>
 <instance part="P+7" gate="VCC" x="216.154" y="129.54" smashed="yes">
-<attribute name="VALUE" x="214.376" y="124.714" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="218.694" y="131.572" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND9" gate="1" x="214.884" y="148.082" smashed="yes">
-<attribute name="VALUE" x="212.344" y="145.542" size="1.778" layer="96"/>
-</instance>
-<instance part="GND10" gate="1" x="214.884" y="160.274" smashed="yes">
-<attribute name="VALUE" x="212.344" y="157.734" size="1.778" layer="96"/>
-</instance>
+<instance part="GND9" gate="1" x="214.884" y="148.082" smashed="yes"/>
+<instance part="GND10" gate="1" x="214.884" y="160.274" smashed="yes"/>
 <instance part="D1" gate="G$1" x="170.18" y="175.26" smashed="yes" rot="R90"/>
 <instance part="D2" gate="G$1" x="175.26" y="175.26" smashed="yes" rot="R90"/>
 <instance part="D3" gate="G$1" x="190.5" y="175.26" smashed="yes" rot="R90"/>
@@ -11574,22 +11568,16 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <instance part="R9" gate="G$1" x="190.5" y="187.96" smashed="yes" rot="R90">
 <attribute name="VALUE" x="193.548" y="185.42" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND11" gate="1" x="170.18" y="167.513" smashed="yes">
-<attribute name="VALUE" x="167.64" y="164.973" size="1.778" layer="96"/>
-</instance>
+<instance part="GND11" gate="1" x="170.18" y="167.513" smashed="yes"/>
 <instance part="J1" gate="G$1" x="193.294" y="150.622" smashed="yes">
 <attribute name="NAME" x="195.834" y="151.003" size="1.778" layer="95"/>
 </instance>
 <instance part="EXT_XO" gate="G$1" x="176.403" y="120.904" smashed="yes"/>
 <instance part="P+8" gate="VCC" x="176.657" y="131.445" smashed="yes">
-<attribute name="VALUE" x="174.117" y="128.905" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="179.451" y="133.731" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND13" gate="1" x="176.657" y="109.601" smashed="yes">
-<attribute name="VALUE" x="174.117" y="107.061" size="1.778" layer="96"/>
-</instance>
-<instance part="GND15" gate="1" x="193.294" y="141.732" smashed="yes">
-<attribute name="VALUE" x="190.754" y="139.192" size="1.778" layer="96"/>
-</instance>
+<instance part="GND13" gate="1" x="176.657" y="109.601" smashed="yes"/>
+<instance part="GND15" gate="1" x="193.294" y="141.732" smashed="yes"/>
 <instance part="C1" gate="G$1" x="241.3" y="58.42" smashed="yes">
 <attribute name="VALUE" x="242.316" y="54.229" size="1.778" layer="96"/>
 </instance>
@@ -11612,47 +11600,30 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <instance part="FPGA" gate="_CORE" x="242.57" y="197.866" smashed="yes">
 <attribute name="NAME" x="232.41" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="FPGA" gate="_BANK1_RIGHT" x="57.15" y="177.292" smashed="yes">
-<attribute name="NAME" x="46.99" y="205.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="46.99" y="164.592" size="1.778" layer="96"/>
+<instance part="FPGA" gate="_BANK1_RIGHT" x="67.31" y="177.292" smashed="yes">
+<attribute name="NAME" x="57.15" y="205.74" size="1.778" layer="95"/>
 </instance>
 <instance part="FPGA" gate="_BANK3_LEFT" x="142.24" y="129.54" smashed="yes">
 <attribute name="NAME" x="132.08" y="158.496" size="1.778" layer="95"/>
-<attribute name="VALUE" x="132.08" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="FPGA" gate="_BANK2_BOTTOM" x="57.15" y="135.89" smashed="yes">
 <attribute name="NAME" x="46.736" y="156.972" size="1.778" layer="95"/>
-<attribute name="VALUE" x="46.99" y="115.57" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="218.694" y="178.308" smashed="yes">
-<attribute name="VALUE" x="216.154" y="175.768" size="1.778" layer="96"/>
-</instance>
+<instance part="GND16" gate="1" x="218.694" y="178.308" smashed="yes"/>
 <instance part="P+10" gate="VCC" x="218.694" y="205.486" smashed="yes">
-<attribute name="VALUE" x="216.154" y="202.692" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="221.234" y="208.026" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND17" gate="1" x="175.26" y="164.973" smashed="yes">
-<attribute name="VALUE" x="172.72" y="162.433" size="1.778" layer="96"/>
-</instance>
-<instance part="GND18" gate="1" x="180.34" y="167.513" smashed="yes">
-<attribute name="VALUE" x="177.8" y="164.973" size="1.778" layer="96"/>
-</instance>
-<instance part="GND23" gate="1" x="185.42" y="164.973" smashed="yes">
-<attribute name="VALUE" x="182.88" y="162.433" size="1.778" layer="96"/>
-</instance>
-<instance part="GND24" gate="1" x="190.5" y="167.513" smashed="yes">
-<attribute name="VALUE" x="187.96" y="164.973" size="1.778" layer="96"/>
-</instance>
-<instance part="GND25" gate="1" x="195.58" y="164.973" smashed="yes">
-<attribute name="VALUE" x="193.04" y="162.433" size="1.778" layer="96"/>
-</instance>
-<instance part="GND26" gate="1" x="200.66" y="167.513" smashed="yes">
-<attribute name="VALUE" x="198.12" y="164.973" size="1.778" layer="96"/>
-</instance>
+<instance part="GND17" gate="1" x="175.26" y="164.973" smashed="yes"/>
+<instance part="GND18" gate="1" x="180.34" y="167.513" smashed="yes"/>
+<instance part="GND23" gate="1" x="185.42" y="164.973" smashed="yes"/>
+<instance part="GND24" gate="1" x="190.5" y="167.513" smashed="yes"/>
+<instance part="GND25" gate="1" x="195.58" y="164.973" smashed="yes"/>
+<instance part="GND26" gate="1" x="200.66" y="167.513" smashed="yes"/>
 <instance part="VCC7" gate="G$1" x="20.32" y="12.7" smashed="yes">
-<attribute name="VALUE" x="17.78" y="10.16" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="23.622" y="16.256" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="VCC8" gate="G$1" x="119.38" y="88.9" smashed="yes">
-<attribute name="VALUE" x="116.84" y="86.36" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="122.936" y="92.202" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C20" gate="G$1" x="195.58" y="58.42" smashed="yes">
 <attribute name="VALUE" x="196.596" y="54.229" size="1.778" layer="96"/>
@@ -11914,35 +11885,35 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="OE" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR3D"/>
-<wire x1="41.91" y1="182.372" x2="40.64" y2="182.372" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="182.372" x2="40.64" y2="182.372" width="0.1524" layer="91"/>
 <label x="40.64" y="182.372" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A15" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR5A/PCLKT1_0"/>
-<wire x1="41.91" y1="184.912" x2="25.4" y2="184.912" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="184.912" x2="25.4" y2="184.912" width="0.1524" layer="91"/>
 <label x="25.4" y="184.912" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A13" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR5C"/>
-<wire x1="41.91" y1="189.992" x2="25.4" y2="189.992" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="189.992" x2="25.4" y2="189.992" width="0.1524" layer="91"/>
 <label x="25.4" y="189.992" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A11" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR6A"/>
-<wire x1="41.91" y1="195.072" x2="25.4" y2="195.072" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="195.072" x2="25.4" y2="195.072" width="0.1524" layer="91"/>
 <label x="25.4" y="195.072" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A9" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR6C"/>
-<wire x1="41.91" y1="200.152" x2="25.4" y2="200.152" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="200.152" x2="25.4" y2="200.152" width="0.1524" layer="91"/>
 <label x="25.4" y="200.152" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -12026,35 +11997,35 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="A8" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR6D"/>
-<wire x1="41.91" y1="202.692" x2="40.64" y2="202.692" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="202.692" x2="40.64" y2="202.692" width="0.1524" layer="91"/>
 <label x="40.64" y="202.692" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A10" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR6B"/>
-<wire x1="41.91" y1="197.612" x2="40.64" y2="197.612" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="197.612" x2="40.64" y2="197.612" width="0.1524" layer="91"/>
 <label x="40.64" y="197.612" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A12" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR5D"/>
-<wire x1="41.91" y1="192.532" x2="40.64" y2="192.532" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="192.532" x2="40.64" y2="192.532" width="0.1524" layer="91"/>
 <label x="40.64" y="192.532" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A14" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR5B/PCLKC1_0"/>
-<wire x1="41.91" y1="187.452" x2="40.64" y2="187.452" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="187.452" x2="40.64" y2="187.452" width="0.1524" layer="91"/>
 <label x="40.64" y="187.452" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="WE" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR3C"/>
-<wire x1="41.91" y1="179.832" x2="25.4" y2="179.832" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="179.832" x2="25.4" y2="179.832" width="0.1524" layer="91"/>
 <label x="25.4" y="179.832" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -12089,7 +12060,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="IRQN" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR3B"/>
-<wire x1="41.91" y1="177.292" x2="40.64" y2="177.292" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="177.292" x2="40.64" y2="177.292" width="0.1524" layer="91"/>
 <label x="40.64" y="177.292" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -12138,8 +12109,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="DMA" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR2B"/>
-<wire x1="41.91" y1="172.212" x2="40.64" y2="172.212" width="0.1524" layer="91"/>
-<label x="40.64" y="172.212" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="52.07" y1="172.212" x2="48.26" y2="172.212" width="0.1524" layer="91"/>
+<label x="48.26" y="172.212" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CLK_SEL" class="0">
@@ -12157,8 +12128,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="EEPROM_PGM" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR2A"/>
-<wire x1="41.91" y1="169.672" x2="27.94" y2="169.672" width="0.1524" layer="91"/>
-<label x="27.94" y="169.672" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="52.07" y1="169.672" x2="34.036" y2="169.672" width="0.1524" layer="91"/>
+<label x="34.036" y="169.672" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -12171,7 +12142,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="RW" class="0">
 <segment>
 <pinref part="FPGA" gate="_BANK1_RIGHT" pin="PR3A"/>
-<wire x1="41.91" y1="174.752" x2="25.4" y2="174.752" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="174.752" x2="25.4" y2="174.752" width="0.1524" layer="91"/>
 <label x="25.4" y="174.752" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -12603,8 +12574,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="EEPROM_PGM_IO" class="0">
 <segment>
 <pinref part="PCB1" gate="G$1" pin="23"/>
-<wire x1="121.92" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
-<label x="147.32" y="68.58" size="1.778" layer="95" xref="yes"/>
+<wire x1="121.92" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="152.4" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OE_IO" class="0">
@@ -12663,14 +12634,12 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 </plain>
 <instances>
 <instance part="P+17" gate="VCC" x="249.428" y="731.52" smashed="yes">
-<attribute name="VALUE" x="246.888" y="728.98" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="251.968" y="734.314" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND19" gate="1" x="249.174" y="659.384" smashed="yes">
-<attribute name="VALUE" x="246.634" y="656.844" size="1.778" layer="96"/>
-</instance>
+<instance part="GND19" gate="1" x="249.174" y="659.384" smashed="yes"/>
 <instance part="EEPROM" gate="G$1" x="249.428" y="621.284" smashed="yes">
 <attribute name="NAME" x="236.728" y="646.938" size="1.778" layer="95"/>
-<attribute name="VALUE" x="251.714" y="593.09" size="1.778" layer="96"/>
+<attribute name="VALUE" x="223.774" y="593.09" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="177.8" y="526.288" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="350.52" y="526.288" smashed="yes">
@@ -12679,58 +12648,53 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <attribute name="DRAWING_NAME" x="368.3" y="545.338" size="2.54" layer="94"/>
 </instance>
 <instance part="P+19" gate="VCC" x="249.428" y="655.574" smashed="yes">
-<attribute name="VALUE" x="247.65" y="649.732" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="252.222" y="657.86" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RAM" gate="G$1" x="374.904" y="691.388" smashed="yes">
 <attribute name="VALUE" x="372.364" y="671.068" size="1.27" layer="96"/>
-<attribute name="NAME" x="372.364" y="714.248" size="1.27" layer="95"/>
+<attribute name="NAME" x="367.284" y="712.216" size="1.27" layer="95"/>
 </instance>
 <instance part="P+20" gate="VCC" x="393.446" y="716.28" smashed="yes">
-<attribute name="VALUE" x="391.668" y="710.438" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="396.24" y="718.82" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND20" gate="1" x="358.648" y="671.322" smashed="yes">
-<attribute name="VALUE" x="356.108" y="668.782" size="1.778" layer="96"/>
-</instance>
+<instance part="GND20" gate="1" x="358.648" y="671.322" smashed="yes"/>
 <instance part="PIO" gate="G$1" x="351.79" y="617.982" smashed="yes">
-<attribute name="NAME" x="341.63" y="645.922" size="1.27" layer="95"/>
+<attribute name="NAME" x="341.376" y="644.398" size="1.27" layer="95"/>
 <attribute name="VALUE" x="342.138" y="582.168" size="1.27" layer="96"/>
 </instance>
 <instance part="P+21" gate="VCC" x="351.79" y="653.288" smashed="yes">
-<attribute name="VALUE" x="350.012" y="647.446" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="354.33" y="656.082" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND21" gate="1" x="249.428" y="586.486" smashed="yes">
-<attribute name="VALUE" x="246.888" y="583.946" size="1.778" layer="96"/>
+<instance part="GND21" gate="1" x="249.428" y="586.486" smashed="yes"/>
+<instance part="GND22" gate="1" x="351.79" y="568.198" smashed="yes"/>
+<instance part="CPU" gate="G$1" x="249.428" y="686.562" smashed="yes">
+<attribute name="NAME" x="233.934" y="722.63" size="1.778" layer="95"/>
+<attribute name="VALUE" x="234.95" y="665.988" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="351.79" y="568.198" smashed="yes">
-<attribute name="VALUE" x="349.25" y="565.658" size="1.778" layer="96"/>
-</instance>
-<instance part="CPU" gate="G$1" x="249.428" y="686.562" smashed="yes"/>
 <instance part="P+3" gate="VCC" x="377.19" y="608.838" smashed="yes">
-<attribute name="VALUE" x="383.794" y="609.092" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="379.73" y="611.124" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+6" gate="VCC" x="309.118" y="704.85" smashed="yes">
-<attribute name="VALUE" x="306.578" y="702.31" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="311.658" y="707.39" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R18" gate="G$1" x="276.479" y="689.102" smashed="yes">
 <attribute name="VALUE" x="275.209" y="690.88" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="A" x="283.21" y="561.34" smashed="yes">
-<attribute name="NAME" x="276.86" y="572.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="546.1" size="1.778" layer="96"/>
+<instance part="JP2" gate="A" x="295.91" y="546.1" smashed="yes">
+<attribute name="NAME" x="289.56" y="556.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="289.56" y="530.86" size="1.778" layer="96"/>
 </instance>
 <instance part="JP3" gate="A" x="247.65" y="566.42" smashed="yes">
 <attribute name="NAME" x="241.3" y="572.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="241.3" y="558.8" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="1" x="234.95" y="553.974" smashed="yes">
-<attribute name="VALUE" x="232.41" y="551.434" size="1.778" layer="96"/>
-</instance>
+<instance part="GND14" gate="1" x="234.95" y="553.974" smashed="yes"/>
 <instance part="R19" gate="G$1" x="226.06" y="566.42" smashed="yes">
 <attribute name="NAME" x="220.091" y="562.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="222.25" y="562.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="VCC9" gate="G$1" x="233.68" y="576.58" smashed="yes">
-<attribute name="VALUE" x="231.14" y="574.04" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="236.728" y="580.39" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C24" gate="G$1" x="200.66" y="543.56" smashed="yes">
 <attribute name="VALUE" x="201.676" y="539.369" size="1.778" layer="96"/>
@@ -12750,9 +12714,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <instance part="P+15" gate="VCC" x="208.28" y="552.704" smashed="yes">
 <attribute name="VALUE" x="210.566" y="554.99" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND34" gate="1" x="208.28" y="533.654" smashed="yes">
-<attribute name="VALUE" x="205.74" y="531.114" size="1.778" layer="96"/>
-</instance>
+<instance part="GND34" gate="1" x="208.28" y="533.654" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -12891,8 +12853,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 </segment>
 <segment>
 <pinref part="PIO" gate="G$1" pin="RS3"/>
-<wire x1="336.55" y1="587.502" x2="322.326" y2="587.502" width="0.1524" layer="91"/>
-<label x="322.326" y="587.502" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="587.502" x2="319.024" y2="587.502" width="0.1524" layer="91"/>
+<label x="319.024" y="587.502" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="EEPROM" gate="G$1" pin="A3"/>
@@ -13342,29 +13304,29 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="PB7" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PB7"/>
-<wire x1="336.55" y1="600.202" x2="326.136" y2="600.202" width="0.1524" layer="91"/>
-<label x="326.136" y="600.202" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="600.202" x2="318.77" y2="600.202" width="0.1524" layer="91"/>
+<label x="318.77" y="600.202" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PB5" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PB5"/>
-<wire x1="336.55" y1="605.282" x2="325.882" y2="605.282" width="0.1524" layer="91"/>
-<label x="325.882" y="605.282" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="605.282" x2="318.77" y2="605.282" width="0.1524" layer="91"/>
+<label x="318.77" y="605.282" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PB3" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PB3"/>
-<wire x1="336.55" y1="610.362" x2="325.882" y2="610.362" width="0.1524" layer="91"/>
-<label x="325.882" y="610.362" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="610.362" x2="318.77" y2="610.362" width="0.1524" layer="91"/>
+<label x="318.77" y="610.362" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PB1" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PB1"/>
-<wire x1="336.55" y1="615.442" x2="325.882" y2="615.442" width="0.1524" layer="91"/>
-<label x="325.882" y="615.442" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="615.442" x2="318.77" y2="615.442" width="0.1524" layer="91"/>
+<label x="318.77" y="615.442" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA6" class="0">
@@ -13398,29 +13360,29 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="PA7" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PA7"/>
-<wire x1="336.55" y1="623.062" x2="326.136" y2="623.062" width="0.1524" layer="91"/>
-<label x="326.136" y="623.062" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="623.062" x2="318.516" y2="623.062" width="0.1524" layer="91"/>
+<label x="318.516" y="623.062" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA5" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PA5"/>
-<wire x1="336.55" y1="628.142" x2="326.136" y2="628.142" width="0.1524" layer="91"/>
-<label x="326.136" y="628.142" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="628.142" x2="318.516" y2="628.142" width="0.1524" layer="91"/>
+<label x="318.516" y="628.142" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA3" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PA3"/>
-<wire x1="336.55" y1="633.222" x2="326.644" y2="633.222" width="0.1524" layer="91"/>
-<label x="326.644" y="633.222" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="633.222" x2="318.516" y2="633.222" width="0.1524" layer="91"/>
+<label x="318.516" y="633.222" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA1" class="0">
 <segment>
 <pinref part="PIO" gate="G$1" pin="PA1"/>
-<wire x1="336.55" y1="638.302" x2="326.644" y2="638.302" width="0.1524" layer="91"/>
-<label x="326.644" y="638.302" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="638.302" x2="318.516" y2="638.302" width="0.1524" layer="91"/>
+<label x="318.516" y="638.302" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IRQN" class="0">
@@ -13477,16 +13439,14 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 </net>
 <net name="OE" class="0">
 <segment>
-<pinref part="RAM" gate="G$1" pin="OE"/>
-<wire x1="387.604" y1="701.548" x2="390.017" y2="701.548" width="0.1524" layer="91"/>
-<wire x1="387.604" y1="701.548" x2="396.113" y2="701.548" width="0.1524" layer="91"/>
-<label x="396.113" y="701.548" size="1.778" layer="95" xref="yes"/>
-<junction x="387.604" y="701.548"/>
-</segment>
-<segment>
 <pinref part="EEPROM" gate="G$1" pin="OE"/>
 <wire x1="211.328" y1="600.964" x2="231.648" y2="600.964" width="0.1524" layer="91"/>
 <label x="211.328" y="600.964" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RAM" gate="G$1" pin="OE"/>
+<wire x1="387.604" y1="701.548" x2="391.668" y2="701.548" width="0.1524" layer="91"/>
+<label x="391.668" y="701.548" size="1.778" layer="96" xref="yes"/>
 </segment>
 </net>
 <net name="WE" class="0">
@@ -13540,8 +13500,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 </segment>
 <segment>
 <pinref part="PIO" gate="G$1" pin="RS1"/>
-<wire x1="336.55" y1="592.582" x2="321.818" y2="592.582" width="0.1524" layer="91"/>
-<label x="321.818" y="592.582" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="336.55" y1="592.582" x2="318.77" y2="592.582" width="0.1524" layer="91"/>
+<label x="318.77" y="592.582" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A15" class="0">
@@ -13561,113 +13521,113 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <net name="PA0_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="280.67" y1="568.96" x2="271.78" y2="568.96" width="0.1524" layer="91"/>
-<label x="271.78" y="568.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="553.72" x2="284.48" y2="553.72" width="0.1524" layer="91"/>
+<label x="284.48" y="553.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PA1_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
-<wire x1="280.67" y1="566.42" x2="271.78" y2="566.42" width="0.1524" layer="91"/>
-<label x="271.78" y="566.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="551.18" x2="280.924" y2="551.18" width="0.1524" layer="91"/>
+<label x="280.924" y="551.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PA2_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="5"/>
-<wire x1="280.67" y1="563.88" x2="271.78" y2="563.88" width="0.1524" layer="91"/>
-<label x="271.78" y="563.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="548.64" x2="277.368" y2="548.64" width="0.1524" layer="91"/>
+<label x="277.368" y="548.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PA3_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="7"/>
-<wire x1="280.67" y1="561.34" x2="271.78" y2="561.34" width="0.1524" layer="91"/>
-<label x="271.78" y="561.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="546.1" x2="273.812" y2="546.1" width="0.1524" layer="91"/>
+<label x="273.812" y="546.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PA4_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="9"/>
-<wire x1="280.67" y1="558.8" x2="271.78" y2="558.8" width="0.1524" layer="91"/>
-<label x="271.78" y="558.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="543.56" x2="270.256" y2="543.56" width="0.1524" layer="91"/>
+<label x="270.256" y="543.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PA5_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="11"/>
-<wire x1="280.67" y1="556.26" x2="271.78" y2="556.26" width="0.1524" layer="91"/>
-<label x="271.78" y="556.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="541.02" x2="266.7" y2="541.02" width="0.1524" layer="91"/>
+<label x="266.7" y="541.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PA6_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="13"/>
-<wire x1="280.67" y1="553.72" x2="271.78" y2="553.72" width="0.1524" layer="91"/>
-<label x="271.78" y="553.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="538.48" x2="263.144" y2="538.48" width="0.1524" layer="91"/>
+<label x="263.144" y="538.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PA7_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="15"/>
-<wire x1="280.67" y1="551.18" x2="271.78" y2="551.18" width="0.1524" layer="91"/>
-<label x="271.78" y="551.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="293.37" y1="535.94" x2="259.588" y2="535.94" width="0.1524" layer="91"/>
+<label x="259.588" y="535.94" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB0_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="288.29" y1="568.96" x2="297.18" y2="568.96" width="0.1524" layer="91"/>
-<label x="297.18" y="568.96" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="553.72" x2="309.88" y2="553.72" width="0.1524" layer="91"/>
+<label x="309.88" y="553.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB1_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="4"/>
-<wire x1="288.29" y1="566.42" x2="297.18" y2="566.42" width="0.1524" layer="91"/>
-<label x="297.18" y="566.42" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="551.18" x2="313.436" y2="551.18" width="0.1524" layer="91"/>
+<label x="313.436" y="551.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB2_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="6"/>
-<wire x1="288.29" y1="563.88" x2="297.18" y2="563.88" width="0.1524" layer="91"/>
-<label x="297.18" y="563.88" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="548.64" x2="316.992" y2="548.64" width="0.1524" layer="91"/>
+<label x="316.992" y="548.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB3_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="8"/>
-<wire x1="288.29" y1="561.34" x2="297.18" y2="561.34" width="0.1524" layer="91"/>
-<label x="297.18" y="561.34" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="546.1" x2="320.548" y2="546.1" width="0.1524" layer="91"/>
+<label x="320.548" y="546.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB4_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="10"/>
-<wire x1="288.29" y1="558.8" x2="297.18" y2="558.8" width="0.1524" layer="91"/>
-<label x="297.18" y="558.8" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="543.56" x2="324.104" y2="543.56" width="0.1524" layer="91"/>
+<label x="324.104" y="543.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB5_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="12"/>
-<wire x1="288.29" y1="556.26" x2="297.18" y2="556.26" width="0.1524" layer="91"/>
-<label x="297.18" y="556.26" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="541.02" x2="327.66" y2="541.02" width="0.1524" layer="91"/>
+<label x="327.66" y="541.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB6_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="14"/>
-<wire x1="288.29" y1="553.72" x2="297.18" y2="553.72" width="0.1524" layer="91"/>
-<label x="297.18" y="553.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="538.48" x2="331.216" y2="538.48" width="0.1524" layer="91"/>
+<label x="331.216" y="538.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB7_IO" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="16"/>
-<wire x1="288.29" y1="551.18" x2="297.18" y2="551.18" width="0.1524" layer="91"/>
-<label x="297.18" y="551.18" size="1.778" layer="95" xref="yes"/>
+<wire x1="300.99" y1="535.94" x2="334.772" y2="535.94" width="0.1524" layer="91"/>
+<label x="334.772" y="535.94" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VCCIO" class="1">
@@ -13858,24 +13818,12 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <attribute name="NAME" x="72.39" y="19.558" size="0.8128" layer="95"/>
 <attribute name="VALUE" x="69.85" y="12.7" size="0.8128" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="30.48" y="30.48" smashed="yes">
-<attribute name="VALUE" x="27.94" y="27.94" size="1.778" layer="96"/>
-</instance>
-<instance part="GND12" gate="1" x="30.48" y="10.16" smashed="yes">
-<attribute name="VALUE" x="27.94" y="7.62" size="1.778" layer="96"/>
-</instance>
-<instance part="GND27" gate="1" x="58.42" y="10.16" smashed="yes">
-<attribute name="VALUE" x="55.88" y="7.62" size="1.778" layer="96"/>
-</instance>
-<instance part="GND28" gate="1" x="86.36" y="10.16" smashed="yes">
-<attribute name="VALUE" x="83.82" y="7.62" size="1.778" layer="96"/>
-</instance>
-<instance part="GND29" gate="1" x="86.36" y="30.48" smashed="yes">
-<attribute name="VALUE" x="83.82" y="27.94" size="1.778" layer="96"/>
-</instance>
-<instance part="GND30" gate="1" x="58.42" y="30.48" smashed="yes">
-<attribute name="VALUE" x="55.88" y="27.94" size="1.778" layer="96"/>
-</instance>
+<instance part="GND1" gate="1" x="30.48" y="30.48" smashed="yes"/>
+<instance part="GND12" gate="1" x="30.48" y="10.16" smashed="yes"/>
+<instance part="GND27" gate="1" x="58.42" y="10.16" smashed="yes"/>
+<instance part="GND28" gate="1" x="86.36" y="10.16" smashed="yes"/>
+<instance part="GND29" gate="1" x="86.36" y="30.48" smashed="yes"/>
+<instance part="GND30" gate="1" x="58.42" y="30.48" smashed="yes"/>
 <instance part="P+1" gate="VCC" x="10.16" y="43.18" smashed="yes">
 <attribute name="VALUE" x="12.7" y="45.72" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -13912,9 +13860,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <instance part="VCC6" gate="G$1" x="30.48" y="22.86" smashed="yes">
 <attribute name="VALUE" x="33.02" y="25.4" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND31" gate="1" x="215.9" y="66.04" smashed="yes">
-<attribute name="VALUE" x="213.36" y="63.5" size="1.778" layer="96"/>
-</instance>
+<instance part="GND31" gate="1" x="215.9" y="66.04" smashed="yes"/>
 <instance part="C8" gate="G$1" x="114.3" y="45.72" smashed="yes">
 <attribute name="NAME" x="115.316" y="46.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.316" y="41.529" size="1.778" layer="96"/>
@@ -13940,27 +13886,21 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <attribute name="VALUE" x="153.416" y="41.529" size="1.778" layer="96"/>
 </instance>
 <instance part="C14" gate="G$1" x="116.84" y="17.78" smashed="yes">
-<attribute name="NAME" x="117.856" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="117.856" y="13.589" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="124.46" y="17.78" smashed="yes">
-<attribute name="NAME" x="125.476" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.476" y="13.589" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="132.08" y="17.78" smashed="yes">
-<attribute name="NAME" x="133.096" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.096" y="13.589" size="1.778" layer="96"/>
 </instance>
 <instance part="C17" gate="G$1" x="139.7" y="17.78" smashed="yes">
-<attribute name="NAME" x="140.716" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="140.716" y="13.589" size="1.778" layer="96"/>
 </instance>
 <instance part="C18" gate="G$1" x="147.32" y="17.78" smashed="yes">
-<attribute name="NAME" x="148.336" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.336" y="13.589" size="1.778" layer="96"/>
 </instance>
 <instance part="C19" gate="G$1" x="154.94" y="17.78" smashed="yes">
-<attribute name="NAME" x="155.956" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="155.956" y="13.589" size="1.778" layer="96"/>
 </instance>
 <instance part="P+9" gate="VCC" x="134.62" y="55.88" smashed="yes">
@@ -13969,12 +13909,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <instance part="VCC10" gate="G$1" x="137.16" y="27.94" smashed="yes">
 <attribute name="VALUE" x="139.7" y="30.48" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND32" gate="1" x="134.62" y="7.62" smashed="yes">
-<attribute name="VALUE" x="132.08" y="5.08" size="1.778" layer="96"/>
-</instance>
-<instance part="GND33" gate="1" x="134.62" y="35.56" smashed="yes">
-<attribute name="VALUE" x="132.08" y="33.02" size="1.778" layer="96"/>
-</instance>
+<instance part="GND32" gate="1" x="134.62" y="7.62" smashed="yes"/>
+<instance part="GND33" gate="1" x="134.62" y="35.56" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -14885,7 +14821,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <approved hash="101,3,241.3,71.12,U6_BUFF_8,B,,,,"/>
 <approved hash="113,1,227.796,119.122,JP1,,,,,"/>
 <approved hash="113,1,191.509,150.622,J1,,,,,"/>
-<approved hash="113,2,284.438,561.566,JP2,,,,,"/>
+<approved hash="113,2,297.138,546.326,JP2,,,,,"/>
 <approved hash="113,2,245.347,567.916,JP3,,,,,"/>
 </errors>
 </schematic>

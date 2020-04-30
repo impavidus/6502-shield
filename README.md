@@ -8,7 +8,7 @@ I'm about to order the first prototype PCBs from OSH Park.  That means this PCB 
 
 ## Introduction
 
-<img src="6502-shield.png" width=640 />
+<img src="docs/images/6502-shield-render.png" width=640 />
 
 The 6502 shield provides (err will provide) most of the major components needed to implement a 6502 based computer.  Some of the key features.  This is aspirational and subject to change.
 
@@ -21,25 +21,24 @@ The 6502 shield provides (err will provide) most of the major components needed 
 * Clock select jumper allows board to run from Internal FPGA clock or External XO
 * LED status indicators for R/W, IRQ, CLK pins
 * LED status indicators show when a devices address space is being accessed by the CPU (RAM/ROM/PIO/FPGA)
-* FPGA manages chip enables based on user defined memory map providing complete flexibility.
-* EEPROM write protection provided by FPGA gating all EEPROM chip enables during a write to EEPROM address space.
-* EEPROM is programmed directly by Arduino asserting EEPROM_PGM line tri-stating all 6502 outputs allowing Arduino to be bus master.  This also disables write protection in place during normal operation.
-* DMA access from the Arduino to the 256K SRAM supported by asserting DMA line.  This will tristate 6502 via BE much like EEPROM.
+* FPGA manages chip enables based on user defined memory map.
+* EEPROM write protection for EEPROM address space.
+* EEPROM is programmed directly by Arduino asserting EEPROM_PGM line. This also disables EEPROM write protection in place during normal operation.
+* DMA access from the Arduino to the 256K SRAM supported by asserting DMA line.
 * FPGA clock supports run/halt/step via on-board push-button and slide switches.
-* FPGA clock speed controllable with control word in FPGA address space to set divider.  Will be applied to internal and external clock sources.
-* All pushbuttons, switches, LEDS are re-configurable for user use by overriding default behavior.  This is done by writing control words to the appropriate FPGA memory address from your 6502 code just like you would any other device on the bus.  The FPGA address space is again completely user-definable.
-* FPGA PCB footprint supports all LUT densities available in the MACH XO family with pin compatability.
 
-## Renderings
+## PCB
 
-<img src="6502-shield-view2.png" width=640 />
-<img src="6502-shield-board-top.png" width=640 />
-<img src="6502-shield-board-bottom.png" width=640 />
-<img src="6502-shield-board-drills.png" width=640 />
+<img src="docs/images/6502-shield-board-top.png" width=640 />
+<img src="docs/images/6502-shield-board-bottom.png" width=640 />
 
 ## Schematic
 
-A PDF version of the schematic is <a href="6502-shield-schematic.pdf">here</a>.
+A PDF version of the schematic is <a href="docs/6502-shield-schematic.pdf">here</a>.
+
+## System Block Diagram
+
+<img src="docs/images/6502-shield-system-diagram.png" width="640" />
 
 ## Source Files
 
