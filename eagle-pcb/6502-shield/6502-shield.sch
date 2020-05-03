@@ -241,64 +241,68 @@
 <text x="0" y="5.104" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.685" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFP80P1200X1200X160-44N" urn="urn:adsk.eagle:footprint:18436839/2" library_version="30">
-<description>44-QFP, 0.80 mm pitch, 12.00 mm span, 10.00 X 10.00 X 1.60 mm body
-&lt;p&gt;44-pin QFP package with 0.80 mm pitch, 12.00 mm lead span1 X 12.00 mm lead span2 with body size 10.00 X 10.00 X 1.60 mm&lt;/p&gt;</description>
-<circle x="-5.7788" y="4.7775" radius="0.25" width="0" layer="21"/>
-<wire x1="-5.1" y1="4.5275" x2="-5.1" y2="5.1" width="0.12" layer="21"/>
-<wire x1="-5.1" y1="5.1" x2="-4.5275" y2="5.1" width="0.12" layer="21"/>
-<wire x1="5.1" y1="4.5275" x2="5.1" y2="5.1" width="0.12" layer="21"/>
-<wire x1="5.1" y1="5.1" x2="4.5275" y2="5.1" width="0.12" layer="21"/>
-<wire x1="5.1" y1="-4.5275" x2="5.1" y2="-5.1" width="0.12" layer="21"/>
-<wire x1="5.1" y1="-5.1" x2="4.5275" y2="-5.1" width="0.12" layer="21"/>
-<wire x1="-5.1" y1="-4.5275" x2="-5.1" y2="-5.1" width="0.12" layer="21"/>
-<wire x1="-5.1" y1="-5.1" x2="-4.5275" y2="-5.1" width="0.12" layer="21"/>
-<smd name="1" x="-5.6783" y="4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="2" x="-5.6783" y="3.2" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="3" x="-5.6783" y="2.4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="4" x="-5.6783" y="1.6" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="5" x="-5.6783" y="0.8" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="6" x="-5.6783" y="0" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="7" x="-5.6783" y="-0.8" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="8" x="-5.6783" y="-1.6" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="9" x="-5.6783" y="-2.4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="10" x="-5.6783" y="-3.2" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="11" x="-5.6783" y="-4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="12" x="-4" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="13" x="-3.2" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="14" x="-2.4" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="15" x="-1.6" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="16" x="-0.8" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="17" x="0" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="18" x="0.8" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="19" x="1.6" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="20" x="2.4" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="21" x="3.2" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="22" x="4" y="-5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="23" x="5.6783" y="-4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="24" x="5.6783" y="-3.2" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="25" x="5.6783" y="-2.4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="26" x="5.6783" y="-1.6" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="27" x="5.6783" y="-0.8" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="28" x="5.6783" y="0" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="29" x="5.6783" y="0.8" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="30" x="5.6783" y="1.6" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="31" x="5.6783" y="2.4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="32" x="5.6783" y="3.2" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="33" x="5.6783" y="4" dx="1.5588" dy="0.5471" layer="1"/>
-<smd name="34" x="4" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="35" x="3.2" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="36" x="2.4" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="37" x="1.6" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="38" x="0.8" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="39" x="0" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="40" x="-0.8" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="41" x="-1.6" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="42" x="-2.4" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="43" x="-3.2" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<smd name="44" x="-4" y="5.6783" dx="1.5588" dy="0.5471" layer="1" rot="R90"/>
-<text x="0" y="7.0927" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7.0927" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<package name="QFP80P1320X1320X270-44N" urn="urn:adsk.eagle:footprint:19765832/1" library_version="53" library_locally_modified="yes">
+<description>44-QFP, 0.80 mm pitch, 13.20 mm span, 10.00 X 10.00 X 2.70 mm body
+&lt;p&gt;44-pin QFP package with 0.80 mm pitch, 13.20 mm lead span1 X 13.20 mm lead span2 with body size 10.00 X 10.00 X 2.70 mm&lt;/p&gt;</description>
+<circle x="-6.0573" y="4.7334" radius="0.25" width="0" layer="21"/>
+<wire x1="-5.1" y1="4.4834" x2="-5.1" y2="5.1" width="0.12" layer="21"/>
+<wire x1="-5.1" y1="5.1" x2="-4.4834" y2="5.1" width="0.12" layer="21"/>
+<wire x1="5.1" y1="4.4834" x2="5.1" y2="5.1" width="0.12" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="4.4834" y2="5.1" width="0.12" layer="21"/>
+<wire x1="5.1" y1="-4.4834" x2="5.1" y2="-5.1" width="0.12" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="4.4834" y2="-5.1" width="0.12" layer="21"/>
+<wire x1="-5.1" y1="-4.4834" x2="-5.1" y2="-5.1" width="0.12" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-4.4834" y2="-5.1" width="0.12" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.12" layer="51"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.12" layer="51"/>
+<wire x1="-5.1" y1="5.1" x2="5.1" y2="5.1" width="0.12" layer="51"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.12" layer="51"/>
+<smd name="1" x="-6.1304" y="4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="2" x="-6.1304" y="3.2" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="3" x="-6.1304" y="2.4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="4" x="-6.1304" y="1.6" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="5" x="-6.1304" y="0.8" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="6" x="-6.1304" y="0" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="7" x="-6.1304" y="-0.8" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="8" x="-6.1304" y="-1.6" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="9" x="-6.1304" y="-2.4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="10" x="-6.1304" y="-3.2" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="11" x="-6.1304" y="-4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="12" x="-4" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="13" x="-3.2" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="14" x="-2.4" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="15" x="-1.6" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="16" x="-0.8" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="17" x="0" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="18" x="0.8" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="19" x="1.6" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="20" x="2.4" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="21" x="3.2" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="22" x="4" y="-6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="23" x="6.1304" y="-4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="24" x="6.1304" y="-3.2" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="25" x="6.1304" y="-2.4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="26" x="6.1304" y="-1.6" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="27" x="6.1304" y="-0.8" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="28" x="6.1304" y="0" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="29" x="6.1304" y="0.8" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="30" x="6.1304" y="1.6" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="31" x="6.1304" y="2.4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="32" x="6.1304" y="3.2" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="33" x="6.1304" y="4" dx="1.7684" dy="0.4587" layer="1"/>
+<smd name="34" x="4" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="35" x="3.2" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="36" x="2.4" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="37" x="1.6" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="38" x="0.8" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="39" x="0" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="40" x="-0.8" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="41" x="-1.6" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="42" x="-2.4" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="43" x="-3.2" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<smd name="44" x="-4" y="6.1304" dx="1.7684" dy="0.4587" layer="1" rot="R90"/>
+<text x="0" y="7.6496" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.6496" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="DIP8/4" urn="urn:adsk.eagle:footprint:18885295/3" library_version="52" library_locally_modified="yes">
 <pad name="5" x="3.81" y="3.81" drill="0.6" shape="square"/>
@@ -842,11 +846,11 @@
 <packageinstance name="SOP55P1340X120-28N"/>
 </packageinstances>
 </package3d>
-<package3d name="QFP80P1200X1200X160-44N" urn="urn:adsk.eagle:package:18436815/2" type="model" library_version="30">
-<description>44-QFP, 0.80 mm pitch, 12.00 mm span, 10.00 X 10.00 X 1.60 mm body
-&lt;p&gt;44-pin QFP package with 0.80 mm pitch, 12.00 mm lead span1 X 12.00 mm lead span2 with body size 10.00 X 10.00 X 1.60 mm&lt;/p&gt;</description>
+<package3d name="QFP80P1320X1320X270-44N" urn="urn:adsk.eagle:package:19765621/1" type="model" library_version="53" library_locally_modified="yes">
+<description>44-QFP, 0.80 mm pitch, 13.20 mm span, 10.00 X 10.00 X 2.70 mm body
+&lt;p&gt;44-pin QFP package with 0.80 mm pitch, 13.20 mm lead span1 X 13.20 mm lead span2 with body size 10.00 X 10.00 X 2.70 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="QFP80P1200X1200X160-44N"/>
+<packageinstance name="QFP80P1320X1320X270-44N"/>
 </packageinstances>
 </package3d>
 <package3d name="DIP8/4" urn="urn:adsk.eagle:package:18885296/4" type="empty" library_version="52" library_locally_modified="yes">
@@ -1039,7 +1043,7 @@
 <text x="-10.16" y="27.94" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-35.56" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="W65C02-44" urn="urn:adsk.eagle:symbol:18477223/2" locally_modified="yes" library_version="52" library_locally_modified="yes">
+<symbol name="W65C02-44" urn="urn:adsk.eagle:symbol:18477223/3" library_version="53" library_locally_modified="yes">
 <wire x1="-15.24" y1="35.56" x2="15.24" y2="35.56" width="0.254" layer="94"/>
 <wire x1="15.24" y1="35.56" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
@@ -1406,13 +1410,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="W65C22" urn="urn:adsk.eagle:component:18477228/4" prefix="U" library_version="36">
+<deviceset name="W65C22" urn="urn:adsk.eagle:component:18477228/4" locally_modified="yes" prefix="U" library_version="53" library_locally_modified="yes">
 <description>W65C22 I/O Controller Interface IC Interface Adapter</description>
 <gates>
 <gate name="G$1" symbol="W65C22-44" x="2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="QFP80P1200X1200X160-44N">
+<device name="" package="QFP80P1320X1320X270-44N">
 <connects>
 <connect gate="G$1" pin="CA1" pad="38"/>
 <connect gate="G$1" pin="CA2" pad="37"/>
@@ -1456,7 +1460,7 @@
 <connect gate="G$1" pin="VSS" pad="39"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18436815/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19765621/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1464,13 +1468,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="W65C02S" urn="urn:adsk.eagle:component:18477230/4" prefix="U" library_version="52" library_locally_modified="yes">
+<deviceset name="W65C02S" urn="urn:adsk.eagle:component:18477230/5" locally_modified="yes" prefix="U" library_version="53" library_locally_modified="yes">
 <description>w65c02s 8-bit microprocessor</description>
 <gates>
 <gate name="G$1" symbol="W65C02-44" x="-2.54" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="QFP80P1200X1200X160-44N">
+<device name="" package="QFP80P1320X1320X270-44N">
 <connects>
 <connect gate="G$1" pin="A0" pad="4"/>
 <connect gate="G$1" pin="A1" pad="5"/>
@@ -1513,7 +1517,7 @@
 <connect gate="G$1" pin="VSS" pad="17 18 39"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18436815/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19765621/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -11380,11 +11384,11 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <part name="RAM" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="AS6C62256" device="" package3d_urn="urn:adsk.eagle:package:18436546/2"/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PIO" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="W65C22" device="" package3d_urn="urn:adsk.eagle:package:18436815/2"/>
+<part name="PIO" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="W65C22" device="" package3d_urn="urn:adsk.eagle:package:19765621/1"/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="CPU" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="W65C02S" device="" package3d_urn="urn:adsk.eagle:package:18436815/2" value="W65C02S"/>
+<part name="CPU" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="W65C02S" device="" package3d_urn="urn:adsk.eagle:package:19765621/1" value="W65C02S"/>
 <part name="PB_STEP" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="MCSLPT4644B1TR-TACT-SW" device="" package3d_urn="urn:adsk.eagle:package:18592201/6"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
@@ -14819,10 +14823,10 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <errors>
 <approved hash="101,3,241.3,78.74,U6_BUFF_7,B,,,,"/>
 <approved hash="101,3,241.3,71.12,U6_BUFF_8,B,,,,"/>
-<approved hash="113,1,227.796,119.122,JP1,,,,,"/>
+<approved hash="113,1,227.796,119.152,JP1,,,,,"/>
 <approved hash="113,1,191.509,150.622,J1,,,,,"/>
-<approved hash="113,2,297.138,546.326,JP2,,,,,"/>
-<approved hash="113,2,245.347,567.916,JP3,,,,,"/>
+<approved hash="113,2,297.138,546.296,JP2,,,,,"/>
+<approved hash="113,2,245.347,567.886,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
