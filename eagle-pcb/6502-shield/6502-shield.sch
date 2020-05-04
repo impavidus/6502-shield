@@ -158,19 +158,26 @@
 <libraries>
 <library name="6502-shield" urn="urn:adsk.eagle:library:18477216">
 <packages>
-<package name="MCSLPT4644B1TR-TACT-SW" urn="urn:adsk.eagle:footprint:18592199/5" library_version="22">
-<smd name="T1" x="-2.125" y="1.75" dx="0.6" dy="0.6" layer="1"/>
-<smd name="T2" x="2.125" y="1.75" dx="0.6" dy="0.6" layer="1"/>
-<smd name="T4" x="2.125" y="-1.75" dx="0.6" dy="0.6" layer="1"/>
-<smd name="T3" x="-2.125" y="-1.75" dx="0.6" dy="0.6" layer="1"/>
-<wire x1="-1.5" y1="-2.2" x2="1.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="1.2" x2="-2.2" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2.2" x2="1.5" y2="2.2" width="0.127" layer="21"/>
-<wire x1="2.2" y1="1.2" x2="2.2" y2="-1.2" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.4" width="0.12" layer="21"/>
-<circle x="0" y="0" radius="0.4" width="0.127" layer="21"/>
-<text x="-3.1" y="2.9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.3" y="-3.9" size="1.27" layer="27">&gt;VALUE</text>
+<package name="MCSLPT4644B1TR-TACT-SW-NEW" urn="urn:adsk.eagle:footprint:19789457/1" locally_modified="yes" library_version="55" library_locally_modified="yes">
+<smd name="T1" x="0" y="0" dx="1" dy="1" layer="1"/>
+<smd name="T2" x="4.25" y="0" dx="1" dy="1" layer="1"/>
+<smd name="T3" x="0" y="-3.5" dx="1" dy="1" layer="1"/>
+<smd name="T4" x="4.25" y="-3.5" dx="1" dy="1" layer="1"/>
+<circle x="2.125" y="-1.75" radius="0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0.45" x2="4.1" y2="0.45" width="0.1524" layer="21"/>
+<wire x1="0" y1="-3.95" x2="4.1" y2="-3.95" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.525" x2="0" y2="-0.95" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.05" x2="-0.35" y2="-1.05" width="0.1524" layer="21"/>
+<wire x1="-0.35" y1="-1.05" x2="-0.35" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-0.35" y1="-2.5" x2="0" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.5" x2="0" y2="-2.975" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-2.975" x2="4.2" y2="-2.55" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-2.45" x2="4.55" y2="-2.45" width="0.1524" layer="21"/>
+<wire x1="4.55" y1="-2.45" x2="4.55" y2="-1" width="0.1524" layer="21"/>
+<wire x1="4.55" y1="-1" x2="4.2" y2="-1" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-1" x2="4.2" y2="-0.525" width="0.1524" layer="21"/>
+<text x="-0.254" y="0.762" size="0.8128" layer="25">&gt;NAME</text>
+<text x="0" y="-5.08" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 <package name="PCM12SMTR" urn="urn:adsk.eagle:footprint:18622135/6" library_version="20">
 <hole x="1.4986" y="0" drill="0.889" locked="yes"/>
@@ -829,9 +836,9 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="MCSLPT4644B1TR-TACT-SW" urn="urn:adsk.eagle:package:18592201/6" type="model" library_version="22">
+<package3d name="MCSLPT4644B1TR-TACT-SW-NEW" urn="urn:adsk.eagle:package:19789458/2" type="model" library_version="55" library_locally_modified="yes">
 <packageinstances>
-<packageinstance name="MCSLPT4644B1TR-TACT-SW"/>
+<packageinstance name="MCSLPT4644B1TR-TACT-SW-NEW"/>
 </packageinstances>
 </package3d>
 <package3d name="PCM12SMTR" urn="urn:adsk.eagle:package:18622137/7" type="model" library_version="20">
@@ -1275,13 +1282,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCSLPT4644B1TR-TACT-SW" urn="urn:adsk.eagle:component:18592202/11" prefix="SW" library_version="27">
+<deviceset name="MCSLPT4644B1TR-TACT-SW" urn="urn:adsk.eagle:component:18592202/12" locally_modified="yes" prefix="SW" library_version="55" library_locally_modified="yes">
 <description>TE MCSLPT4644B1TR Tactile switch 4.6 x 4.4 x 0.55 mm</description>
 <gates>
 <gate name="G$1" symbol="MCSLPT4644B1TR-TACT-SW" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="MCSLPT4644B1TR-TACT-SW">
+<device name="" package="MCSLPT4644B1TR-TACT-SW-NEW">
 <connects>
 <connect gate="G$1" pin="T1" pad="T1"/>
 <connect gate="G$1" pin="T2" pad="T2"/>
@@ -1289,7 +1296,7 @@
 <connect gate="G$1" pin="T4" pad="T4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18592201/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19789458/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1410,7 +1417,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="W65C22" urn="urn:adsk.eagle:component:18477228/4" locally_modified="yes" prefix="U" library_version="53" library_locally_modified="yes">
+<deviceset name="W65C22" urn="urn:adsk.eagle:component:18477228/5" prefix="U" library_version="55" library_locally_modified="yes">
 <description>W65C22 I/O Controller Interface IC Interface Adapter</description>
 <gates>
 <gate name="G$1" symbol="W65C22-44" x="2.54" y="2.54"/>
@@ -1468,7 +1475,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="W65C02S" urn="urn:adsk.eagle:component:18477230/5" locally_modified="yes" prefix="U" library_version="53" library_locally_modified="yes">
+<deviceset name="W65C02S" urn="urn:adsk.eagle:component:18477230/6" prefix="U" library_version="55" library_locally_modified="yes">
 <description>w65c02s 8-bit microprocessor</description>
 <gates>
 <gate name="G$1" symbol="W65C02-44" x="-2.54" y="-2.54"/>
@@ -11365,7 +11372,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 </classes>
 <parts>
 <part name="PCB1" library="E14_Arduino_revC" library_urn="urn:adsk.eagle:library:18477430" deviceset="ARDUINO_MEGA2560" device="" package3d_urn="urn:adsk.eagle:package:18477461/7"/>
-<part name="PB_RESET" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="MCSLPT4644B1TR-TACT-SW" device="" package3d_urn="urn:adsk.eagle:package:18592201/6"/>
+<part name="PB_RESET" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="MCSLPT4644B1TR-TACT-SW" device="" package3d_urn="urn:adsk.eagle:package:19789458/2"/>
 <part name="SW_RUNHALT" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="PCM12SMTR-SPDT-RIGHT-ANG" device="" package3d_urn="urn:adsk.eagle:package:18622137/7"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
@@ -11389,7 +11396,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCD?m"&gt;http:/
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CPU" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="W65C02S" device="" package3d_urn="urn:adsk.eagle:package:19765621/1" value="W65C02S"/>
-<part name="PB_STEP" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="MCSLPT4644B1TR-TACT-SW" device="" package3d_urn="urn:adsk.eagle:package:18592201/6"/>
+<part name="PB_STEP" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" deviceset="MCSLPT4644B1TR-TACT-SW" device="" package3d_urn="urn:adsk.eagle:package:19789458/2"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

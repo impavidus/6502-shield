@@ -159,7 +159,7 @@
 <plain>
 <text x="8" y="2.9" size="0.8128" layer="21" font="vector" ratio="15" rot="R270">RUN</text>
 <text x="4" y="3" size="0.8128" layer="21" font="vector" ratio="15" rot="R270">HALT</text>
-<text x="24.3" y="2.4" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">STEP</text>
+<text x="24.25" y="2.75" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">STEP</text>
 <text x="12.55" y="17.65" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">RESET</text>
 <text x="1.35" y="45.55" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">CLOCK SELECT</text>
 <text x="4" y="52.2" size="0.6096" layer="21" font="vector" ratio="15" rot="R270">FPGA</text>
@@ -238,19 +238,26 @@ REV B</text>
 <libraries>
 <library name="6502-shield" urn="urn:adsk.eagle:library:18477216">
 <packages>
-<package name="MCSLPT4644B1TR-TACT-SW" urn="urn:adsk.eagle:footprint:18592199/5" library_version="22">
-<smd name="T1" x="-2.125" y="1.75" dx="0.6" dy="0.6" layer="1"/>
-<smd name="T2" x="2.125" y="1.75" dx="0.6" dy="0.6" layer="1"/>
-<smd name="T4" x="2.125" y="-1.75" dx="0.6" dy="0.6" layer="1"/>
-<smd name="T3" x="-2.125" y="-1.75" dx="0.6" dy="0.6" layer="1"/>
-<wire x1="-1.5" y1="-2.2" x2="1.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="1.2" x2="-2.2" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2.2" x2="1.5" y2="2.2" width="0.127" layer="21"/>
-<wire x1="2.2" y1="1.2" x2="2.2" y2="-1.2" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.4" width="0.12" layer="21"/>
-<circle x="0" y="0" radius="0.4" width="0.127" layer="21"/>
-<text x="-3.1" y="2.9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.3" y="-3.9" size="1.27" layer="27">&gt;VALUE</text>
+<package name="MCSLPT4644B1TR-TACT-SW-NEW" urn="urn:adsk.eagle:footprint:19789457/1" locally_modified="yes" library_version="55" library_locally_modified="yes">
+<smd name="T1" x="0" y="0" dx="1" dy="1" layer="1"/>
+<smd name="T2" x="4.25" y="0" dx="1" dy="1" layer="1"/>
+<smd name="T3" x="0" y="-3.5" dx="1" dy="1" layer="1"/>
+<smd name="T4" x="4.25" y="-3.5" dx="1" dy="1" layer="1"/>
+<circle x="2.125" y="-1.75" radius="0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0.45" x2="4.1" y2="0.45" width="0.1524" layer="21"/>
+<wire x1="0" y1="-3.95" x2="4.1" y2="-3.95" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.525" x2="0" y2="-0.95" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.05" x2="-0.35" y2="-1.05" width="0.1524" layer="21"/>
+<wire x1="-0.35" y1="-1.05" x2="-0.35" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-0.35" y1="-2.5" x2="0" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.5" x2="0" y2="-2.975" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-2.975" x2="4.2" y2="-2.55" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-2.45" x2="4.55" y2="-2.45" width="0.1524" layer="21"/>
+<wire x1="4.55" y1="-2.45" x2="4.55" y2="-1" width="0.1524" layer="21"/>
+<wire x1="4.55" y1="-1" x2="4.2" y2="-1" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-1" x2="4.2" y2="-0.525" width="0.1524" layer="21"/>
+<text x="-0.254" y="0.762" size="0.8128" layer="25">&gt;NAME</text>
+<text x="0" y="-5.08" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 <package name="PCM12SMTR" urn="urn:adsk.eagle:footprint:18622135/6" library_version="20">
 <hole x="1.4986" y="0" drill="0.889" locked="yes"/>
@@ -897,9 +904,9 @@ REV B</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="MCSLPT4644B1TR-TACT-SW" urn="urn:adsk.eagle:package:18592201/6" type="model" library_version="22">
+<package3d name="MCSLPT4644B1TR-TACT-SW-NEW" urn="urn:adsk.eagle:package:19789458/2" type="model" library_version="55" library_locally_modified="yes">
 <packageinstances>
-<packageinstance name="MCSLPT4644B1TR-TACT-SW"/>
+<packageinstance name="MCSLPT4644B1TR-TACT-SW-NEW"/>
 </packageinstances>
 </package3d>
 <package3d name="PCM12SMTR" urn="urn:adsk.eagle:package:18622137/7" type="model" library_version="20">
@@ -3203,8 +3210,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="PCB1" library="E14_Arduino_revC" library_urn="urn:adsk.eagle:library:18477430" package="ARDUINO_MEGA2560" package3d_urn="urn:adsk.eagle:package:18477461/7" value="ARDUINO_MEGA2560" x="0" y="0" locked="yes" smashed="yes"/>
-<element name="PB_RESET" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="MCSLPT4644B1TR-TACT-SW" package3d_urn="urn:adsk.eagle:package:18592201/6" value="MCSLPT4644B1TR-TACT-SW" x="9.14" y="19.23" smashed="yes" rot="R270">
-<attribute name="VALUE" x="5.24" y="22.53" size="1.27" layer="27" rot="R270"/>
+<element name="PB_RESET" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="MCSLPT4644B1TR-TACT-SW-NEW" package3d_urn="urn:adsk.eagle:package:19789458/2" value="MCSLPT4644B1TR-TACT-SW" x="11.09" y="21.33" smashed="yes" rot="R270">
+<attribute name="VALUE" x="7.19" y="24.63" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="SW_RUNHALT" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="PCM12SMTR" package3d_urn="urn:adsk.eagle:package:18622137/7" value="PCM12SMTR-SPDT-RIGHT-ANG" x="5.8" y="4.65" smashed="yes">
 <attribute name="VALUE" x="2.498" y="-0.43" size="1.27" layer="27"/>
@@ -3231,8 +3238,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="CPU" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="QFP80P1320X1320X270-44N" package3d_urn="urn:adsk.eagle:package:19765621/1" value="W65C02S" x="58.1" y="18.2" smashed="yes" rot="R135">
 <attribute name="VALUE" x="63.11529375" y="23.215290625" size="1.27" layer="27" rot="R135" align="top-center"/>
 </element>
-<element name="PB_STEP" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="MCSLPT4644B1TR-TACT-SW" package3d_urn="urn:adsk.eagle:package:18592201/6" value="MCSLPT4644B1TR-TACT-SW" x="20.6" y="4.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="16.7" y="7.4" size="1.27" layer="27" rot="R270"/>
+<element name="PB_STEP" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="MCSLPT4644B1TR-TACT-SW-NEW" package3d_urn="urn:adsk.eagle:package:19789458/2" value="MCSLPT4644B1TR-TACT-SW" x="22.7" y="6.2" smashed="yes" rot="R270">
+<attribute name="VALUE" x="18.8" y="9.5" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="15.75" y="44.95" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="77" x="15.75" y="44.95" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5961,28 +5968,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SW_RUNHALT">
 <contactref element="FPGA" pad="1"/>
 <contactref element="SW_RUNHALT" pad="1"/>
-<wire x1="6.2936" y1="23.540790625" x2="10.44251875" y2="27.689709375" width="0.254" layer="1"/>
-<wire x1="3.5648" y1="6.3899" x2="3.5648" y2="16.5648" width="0.254" layer="1"/>
-<wire x1="3.5648" y1="16.5648" x2="6.2936" y2="19.2936" width="0.254" layer="1"/>
-<wire x1="6.2936" y1="19.2936" x2="6.2936" y2="23.540790625" width="0.254" layer="1"/>
+<wire x1="6.2936" y1="23.540790625" x2="10.44251875" y2="27.689709375" width="0.1524" layer="1"/>
+<wire x1="3.5648" y1="6.3899" x2="3.5648" y2="16.5648" width="0.1524" layer="1"/>
+<wire x1="3.5648" y1="16.5648" x2="6.2936" y2="19.2936" width="0.1524" layer="1"/>
+<wire x1="6.2936" y1="19.2936" x2="6.2936" y2="23.540790625" width="0.1524" layer="1"/>
 </signal>
 <signal name="PB_STEP">
 <contactref element="FPGA" pad="2"/>
 <contactref element="PB_STEP" pad="T3"/>
-<wire x1="6.7" y1="23.240084375" x2="10.796071875" y2="27.33615625" width="0.254" layer="1"/>
-<wire x1="18.85" y1="6.225" x2="10.275" y2="6.225" width="0.254" layer="1"/>
-<wire x1="10.275" y1="6.225" x2="8.6" y2="7.9" width="0.254" layer="1"/>
-<wire x1="8.6" y1="7.9" x2="8.6" y2="13.7" width="0.254" layer="1"/>
-<wire x1="8.6" y1="13.7" x2="6.7" y2="15.6" width="0.254" layer="1"/>
-<wire x1="6.7" y1="15.6" x2="6.7" y2="23.240084375" width="0.254" layer="1"/>
+<wire x1="6.7" y1="23.240084375" x2="10.796071875" y2="27.33615625" width="0.1524" layer="1"/>
+<wire x1="19.2" y1="6.2" x2="8.6" y2="9.500365625" width="0.1524" layer="1"/>
+<wire x1="8.6" y1="9.500365625" x2="8.6" y2="13.7" width="0.1524" layer="1"/>
+<wire x1="8.6" y1="13.7" x2="6.7" y2="15.6" width="0.1524" layer="1"/>
+<wire x1="6.7" y1="15.6" x2="6.7" y2="23.240084375" width="0.1524" layer="1"/>
 </signal>
 <signal name="PB_RESET">
 <contactref element="PB_RESET" pad="T3"/>
 <contactref element="FPGA" pad="3"/>
-<wire x1="11.149625" y1="26.982603125" x2="10.108121875" y2="25.9411" width="0.254" layer="1"/>
-<wire x1="10.108121875" y1="25.9411" x2="10.035309375" y2="25.9411" width="0.254" layer="1"/>
-<wire x1="10.035309375" y1="25.9411" x2="7.39" y2="23.295790625" width="0.254" layer="1"/>
-<wire x1="7.39" y1="23.295790625" x2="7.39" y2="21.355" width="0.254" layer="1"/>
+<wire x1="10.449625" y1="26.382603125" x2="7.208121875" y2="23.1411" width="0.1524" layer="1"/>
+<wire x1="7.208121875" y1="23.1411" x2="7.208121875" y2="21.711878125" width="0.1524" layer="1"/>
+<wire x1="7.59" y1="21.33" x2="7.208121875" y2="21.711878125" width="0.1524" layer="1"/>
+<wire x1="11.149625" y1="26.982603125" x2="10.549625" y2="26.382603125" width="0.1524" layer="1"/>
+<wire x1="10.549625" y1="26.382603125" x2="10.449625" y2="26.382603125" width="0.1524" layer="1"/>
 </signal>
 <signal name="TMS">
 <contactref element="FPGA" pad="90"/>
