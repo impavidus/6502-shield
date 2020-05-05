@@ -1,4 +1,4 @@
-Partlist exported from C:/Users/rjohnson3/Desktop/Personal/6502-shield/eagle-pcb/6502-shield/6502-shield.sch at 5/4/2020 6:27 PM
+Partlist exported from C:/Users/rjohnson3/Desktop/Personal/6502-shield/eagle-pcb/6502-shield/6502-shield.sch at 5/4/2020 8:36 PM
 
 Qty Value                    Device                     Package                    Parts                                                                                                                             Description                                                                                                                                                                                                                POPULARITY SPICEPREFIX
 1                            PINHD-1X3                  1X03                       JP3                                                                                                                               PIN HEADER                                                                                                                                                                                                                 92                    

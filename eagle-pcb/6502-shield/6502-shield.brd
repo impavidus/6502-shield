@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -234,6 +234,9 @@ REV B</text>
 <wire x1="4.3" y1="18.5" x2="0.95" y2="18.5" width="0.1524" layer="21"/>
 <wire x1="0.95" y1="18.5" x2="0.95" y2="20.65" width="0.1524" layer="21"/>
 <text x="100.5" y="10.8" size="1.778" layer="21" ratio="15" rot="R90">github.com/impavidus</text>
+<text x="41" y="4.5" size="1.016" layer="21" font="vector" ratio="15" rot="R90">GND</text>
+<text x="38.5" y="4.5" size="1.016" layer="21" font="vector" ratio="15" rot="R90">5V</text>
+<text x="36" y="4.5" size="1.016" layer="21" font="vector" ratio="15" rot="R90">3.3V</text>
 </plain>
 <libraries>
 <library name="6502-shield" urn="urn:adsk.eagle:library:18477216">
@@ -3224,19 +3227,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="15.4" y="39.33" smashed="yes" rot="R135">
 <attribute name="POPULARITY" value="63" x="15.4" y="39.33" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="15.4" y="39.33" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="VALUE" x="17.19605" y="40.228025" size="1.27" layer="27" rot="R135"/>
+<attribute name="VALUE" x="18.094075" y="40.228025" size="1.27" layer="27" rot="R135"/>
 </element>
 <element name="EEPROM" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="SOP55P1340X120-28N" package3d_urn="urn:adsk.eagle:package:18436546/2" value="AT28BV256TSOP-28" x="59.33904375" y="35.45" smashed="yes" rot="R270">
+<attribute name="NAME" x="58.89304375" y="35.55" size="1.27" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="54.65404375" y="35.45" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
 <element name="RAM" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="SOP55P1340X120-28N" package3d_urn="urn:adsk.eagle:package:18436546/2" value="AS6C62256" x="44" y="35.45" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.254" y="35.4" size="1.27" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="39.315" y="35.45" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
 <element name="PIO" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="QFP80P1320X1320X270-44N" package3d_urn="urn:adsk.eagle:package:19765621/1" value="W65C22" x="39.65" y="14.65" smashed="yes" rot="R45">
-<attribute name="VALUE" x="44.66529375" y="9.63470625" size="1.27" layer="27" rot="R45" align="top-center"/>
+<attribute name="NAME" x="40.240915625" y="14.20908125" size="1.27" layer="25" rot="R45" align="bottom-center"/>
+<attribute name="VALUE" x="45.05908125" y="9.240915625" size="1.27" layer="27" rot="R45" align="top-center"/>
 </element>
 <element name="CPU" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="QFP80P1320X1320X270-44N" package3d_urn="urn:adsk.eagle:package:19765621/1" value="W65C02S" x="58.1" y="18.2" smashed="yes" rot="R135">
-<attribute name="VALUE" x="63.11529375" y="23.215290625" size="1.27" layer="27" rot="R135" align="top-center"/>
+<attribute name="NAME" x="58.209084375" y="18.140915625" size="1.27" layer="25" rot="R225" align="bottom-center"/>
+<attribute name="VALUE" x="63.50908125" y="23.60908125" size="1.27" layer="27" rot="R135" align="top-center"/>
 </element>
 <element name="PB_STEP" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="MCSLPT4644B1TR-TACT-SW-NEW" package3d_urn="urn:adsk.eagle:package:19789458/2" value="MCSLPT4644B1TR-TACT-SW" x="22.7" y="6.2" smashed="yes" rot="R270">
 <attribute name="VALUE" x="18.8" y="9.5" size="1.27" layer="27" rot="R270"/>
@@ -3332,7 +3339,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="24.211909375" y="40.05" smashed="yes" rot="R45">
 <attribute name="POPULARITY" value="63" x="24.211909375" y="40.05" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="24.211909375" y="40.05" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="VALUE" x="25.1099375" y="38.253946875" size="1.27" layer="27" rot="R45"/>
+<attribute name="VALUE" x="25.109934375" y="37.355921875" size="1.27" layer="27" rot="R45"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="30.7" y="33.9" smashed="yes" rot="R45">
 <attribute name="POPULARITY" value="63" x="30.7" y="33.9" size="1.778" layer="27" rot="R45" display="off"/>
@@ -3355,6 +3362,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="3.935" y="48.505" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="FPGA" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="QFP50P1600X1600X160-100N" package3d_urn="urn:adsk.eagle:package:18828921/2" value="MACHXO2-FPGA100TQFP" x="20.116659375" y="28.87856875" smashed="yes" rot="R45">
+<attribute name="NAME" x="20.77053125" y="28.47469375" size="1.27" layer="25" rot="R45" align="bottom-center"/>
 <attribute name="VALUE" x="26.562784375" y="22.432440625" size="1.27" layer="27" rot="R45" align="top-center"/>
 </element>
 <element name="U1" library="6502-shield" library_urn="urn:adsk.eagle:library:18477216" package="SOP65P640X120-20N" package3d_urn="urn:adsk.eagle:package:19502596/2" value="TCB0108-LVL-XLTRTSSOP20" x="83.433215625" y="33.77854375" smashed="yes" rot="MR180">
