@@ -113,8 +113,4 @@ begin
         end loop;
         wait;
     end process test_harness;
-	
-	
-	
-
 end tb;

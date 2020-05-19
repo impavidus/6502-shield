@@ -65,3 +65,4 @@ LOCATE COMP "we_out" SITE "67" ;
 //LOCATE COMP "d_io[5]" SITE "32" ;
 //LOCATE COMP "d_io[6]" SITE "34" ;
 //LOCATE COMP "d_io[7]" SITE "35" ;
+

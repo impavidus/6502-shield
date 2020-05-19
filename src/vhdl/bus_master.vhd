@@ -158,5 +158,4 @@ begin
 	s_led_reg(0) 			<= not s_bclk;
 	s_led_reg(6 downto 1) 	<= s_button_reg & "11";
 	
-
 end rtl;
